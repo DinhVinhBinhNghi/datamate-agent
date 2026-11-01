@@ -1,0 +1,6 @@
+{"id": "q_2ac539902fe6", "decision": "answer", "family": "revenue_growth", "capability": "sales", "function_evidence": {"metric": "revenue_growth", "current": 159156000, "comparison": 198885000}}
+{"id": "q_2ed4740ec705", "decision": "answer", "family": "revenue_growth", "capability": "sales", "function_evidence": {"metric": "revenue_growth", "current": 220598000, "comparison": 242101000}}
+{"id": "q_45cb42f4dc7b", "decision": "answer", "family": "revenue_growth", "capability": "sales", "function_evidence": {"metric": "revenue_growth", "current": 238238500, "comparison": 228031000}}
+{"id": "q_4ef479fd4803", "decision": "answer", "family": "revenue_growth", "capability": "sales", "function_evidence": {"metric": "revenue_growth", "current": 229254500, "comparison": 219035500}}
+{"id": "q_a79c3c340077", "decision": "answer", "family": "revenue_growth", "capability": "sales", "function_evidence": {"metric": "revenue_growth", "current": 207491000, "comparison": 229699000}}
+{"id": "q_d857fdab9c0a", "decision": "answer", "family": "revenue_growth", "capability": "sales", "function_evidence": {"metric": "revenue_growth", "current": 207491000, "comparison": 220598000}}

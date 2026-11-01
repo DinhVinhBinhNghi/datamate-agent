@@ -1,0 +1,25 @@
+# Chat 05 Handoff — DataMate (30/10/2026)
+- Đã xác minh Windows: Nhóm 1–4 đã cài và chạy; bộ planner 15/15 unittest pass.
+- Nền: Chat 3 loader và Chat 4 oracle executor; chỉ `train/biz_129` có config/business functions đã verify.
+- Runtime plan của Chat 4 giữ đúng 6 field: `plan_id`, `operation`, `business_id`, `ruleset`, `period`, `as_of_date`; không chuyển `expected_value` vào runtime.
+- Allowlist: `resolve_period` (time), `revenue`, `order_count`, `cancel_rate`; public_test và business khác chưa bật.
+- `QuestionIntent` typed: question/business identity, family/metric/type, period expression, filter/grouping/comparison/top_k, capabilities, operations, checks, ambiguities.
+- `entity_filter`, `grouping`, `comparison`, `top_k` chỉ nhận null vì oracle chưa thực thi các cấu trúc đó.
+- Schema ở `src/datamate/planner/intent.schema.json`; validator strict reject field lạ, SQL/code/path/column, wrong business, unsupported operation/family, invalid/future period và ambiguity.
+- CLI end-to-end đã chạy Windows: `python -m datamate.plan_question --question-id q_07f86ff2d62b --planner heuristic` → revenue tháng 3/2026 → executor `ok`, value 1,016,912,500; execution 2.216031s trong lần chạy đã gửi.
+- `--planner local` hiện trả `planner_failure:local_model_not_configured`; không gọi executor và không đoán.
+- Heuristic là mặc định: template khớp chặt; câu không hỗ trợ fail closed. Time operation có schema nhưng chưa có câu time độc lập được kiểm thử trong dev set.
+- Hardware Windows: Intel i7-1255U (10 cores/12 threads), RAM 25,480,912,896 bytes (~23.7 GiB); Ollama không tìm thấy.
+- Model/runtime thật: chưa cài; không có `local_model.py`, model JSON-valid/accuracy/latency là N/A. `prompt_v1.md` là bản nháp chưa kích hoạt.
+- Nhóm 2 Windows, plan-only 10 câu chọn trước: 5 planned, 5 planner_failure; p50 0.001128s, p95 0.002015s; không chạy executor.
+- Nhóm 3 Windows mock: 10 raw outputs, 2 planned, 8 rejected; tối đa một lần bỏ Markdown fence, không sửa giá trị JSON; 0 oracle execution; timeout là giả lập.
+- Mock gate log: prompt version, model/runtime, SHA-256 raw, parsed intent/plan khi thành công, retry, latency, failure reason; không log dữ liệu bảng đầy đủ.
+- Nhóm 4 Windows plan-only: 10 nhãn intent viết tay từ câu hỏi và allowlist Chat 4; 5 supported, 5 unsupported.
+- Nhóm 4: JSON-valid 5/5 plan, schema-pass 5/5, family/period/type 5/5 trên supported, unsupported detection 5/5; p50 0.000436s, p95 0.000778s; retry/timeout heuristic 0.
+- Các tỉ lệ 5/5 trên tập chọn có chủ đích, không là ước lượng độ chính xác 3,000 câu train hay public; không dùng answer train trong prompt runtime.
+- Model vs heuristic: chưa có so sánh thực nghiệm; giữ heuristic mặc định, model optional và chỉ xem xét sau khi cài/đo JSON, accuracy, latency thực.
+- Artifacts Windows: `artifacts/planner/planner_results.jsonl` (CLI), `planner_benchmark_results.jsonl`, `model_gate_results.jsonl`, `planner_eval_results.jsonl`, `planner_report.md`.
+- API Chat 6: `run_question(question, root, planner='heuristic', execute=True)` và `validate_intent`/`to_query_plan`/`validate_query_plan`; `execute_plan` chỉ nhận QueryPlan đã gate.
+- Chat 6 phải phân biệt `planner_failure` (abstain), `execution_failure` (loader/execution/formatter) và `ok`; không biến null model metrics thành confidence.
+- Backlog: mở rộng câu/family/business và public rulebook riêng, kiểm tra khoảng ngày có dữ liệu, nhãn oracle rộng hơn, thực nghiệm model local nếu đáng giá; `family_inventory.csv`/`rule_traceability.csv` chưa đính kèm Chat 5.
+- Chạy lại: `$env:PYTHONPATH='D:\ZALO\src'; python -m unittest discover -s tests\planner -v; python -m datamate.evaluate_planner` từ `D:\ZALO`.

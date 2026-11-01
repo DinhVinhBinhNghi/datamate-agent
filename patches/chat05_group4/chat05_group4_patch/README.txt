@@ -1,0 +1,1 @@
+DataMate Chat 5 / Group 4. Installs a plan-only evaluation against 10 handwritten development intent labels. It overwrites only the derived artifacts\planner\planner_report.md when you run evaluation. No public labels, model, or oracle execution.

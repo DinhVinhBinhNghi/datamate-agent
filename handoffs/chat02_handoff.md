@@ -1,0 +1,31 @@
+# Chat 02 Handoff — DataMate
+- Dữ liệu: `D:\ZALO\train`, `D:\ZALO\public_test`; raw chỉ đọc.
+- Audit code: `src\datamate\audit_dataset.py`, `src\datamate\analyze_audit.py`.
+- Chạy audit: `python -m datamate.audit_dataset --root <split-root> --split <split> --output <audit-dir> --resume`.
+- Chạy coverage: `python -m datamate.analyze_audit --split <split> --audit-dir <audit-dir> --resume`.
+- Luôn đặt: `$env:PYTHONPATH='D:\ZALO\src'` và dùng `.venv\Scripts\python.exe`.
+- Train: 158/158 source success; 30 business; 128 structured sources; 339 tables; 0 error.
+- Public: 94/94 source success; 14 business; 80 structured sources; 163 tables; 0 error.
+- Formats xác minh: CSV, XLSX nhiều sheet/phân mảnh, SQLite read-only, README.
+- Runtime batch cộng dồn: train 737.43s; public 255.44s.
+- Peak Working Set: train 48.60 MB; public 61.95 MB.
+- Train coverage: 325 date, 584 JOIN candidates, 90 fragment pairs, 101 capability candidates.
+- Public coverage: 87 date, 29 JOIN candidates, 21 fragment pairs, 53 capability candidates.
+- Pytest: 4 passed sau capability fix v3.
+- Fatal: không có source fatal/error.
+- JOIN warning: train 368, public 8; many-to-many/fact-to-fact không được dùng trực tiếp.
+- Fragment warning: biz_130 và dev_008 chồng 1 ngày; sample key overlap = 0.
+- SQLite declared PK/FK được ghi nhận; chưa suy rộng thành JOIN đúng ngữ nghĩa.
+- Key/grain/JOIN trong CSV/XLSX vẫn là candidate trừ khi adapter kiểm chứng cardinality.
+- Capability chỉ có `candidate`/`unknown`, không phải cam kết trả lời được.
+- Archetype: flat CSV; multi-sheet/header offset; monthly/part fragments; relational SQLite; nhiều fact/detail.
+- Keyword lower bounds, có overlap: revenue 1,144/30 biz; ranking 102/28; payment/debt 90/10; orders 65/23.
+- Ưu tiên Chat 3: revenue → order count/status → product ranking → payment/debt.
+- Backlog audit/adapter: purchases, inventory, lots/expiry, delivery, industry-specific.
+- Chat 3 dùng pandas + config tối thiểu; SQLite cache chỉ khi benchmark chậm.
+- Adapter phải UNION fragments riêng và chặn JOIN M:N/inflation cao mặc định.
+- Không coi thiếu coverage là 0; giữ unknown/abstain khi thiếu bằng chứng.
+- Artifacts: `artifacts\audit\train\*`, `artifacts\audit\public\*`.
+- Kết luận: `artifacts\audit\audit_summary_final.md`.
+- Chat 3 cần: handoff này, hai rulebook, README từng business, manifest/tables/date/JOIN/capability reports.
+- Chưa viết loader production, scorer chính thức, agent, planner hay LLM integration.

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "question_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "business_id": {
+      "enum": ["biz_102", "biz_103", "biz_104", "biz_129", "dev_002"]
+    },
+    "ruleset": {
+      "enum": ["train", "public_test"]
+    },
+    "as_of_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "family": {
+      "enum": [
+        "time",
+        "revenue",
+        "order_count",
+        "cancel",
+        "cancel_count"
+      ]
+    },
+    "metric": {
+      "enum": [
+        "resolve_period",
+        "revenue",
+        "order_count",
+        "cancel_rate",
+        "cancel_count"
+      ]
+    },
+    "answer_type": {
+      "enum": [
+        "date",
+        "number",
+        "percent"
+      ]
+    },
+    "period_expression": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_filter": {
+      "type": "null"
+    },
+    "grouping": {
+      "type": "null"
+    },
+    "comparison": {
+      "type": "null"
+    },
+    "top_k": {
+      "type": "null"
+    },
+    "required_capabilities": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "cancel_rate_rule",
+          "cancel_count_rule",
+          "order_count_rule",
+          "order_lines",
+          "orders",
+          "revenue_rule",
+          "train_calendar"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "resolve_period",
+          "revenue",
+          "order_count",
+          "cancel_rate",
+          "cancel_count"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "validation_checks": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "identity",
+          "capability",
+          "period",
+          "allowlist"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "ambiguities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "question_id",
+    "business_id",
+    "ruleset",
+    "as_of_date",
+    "family",
+    "metric",
+    "answer_type",
+    "period_expression",
+    "entity_filter",
+    "grouping",
+    "comparison",
+    "top_k",
+    "required_capabilities",
+    "operations",
+    "validation_checks",
+    "ambiguities"
+  ],
+  "additionalProperties": false
+}

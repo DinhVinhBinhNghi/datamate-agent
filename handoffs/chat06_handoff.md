@@ -1,0 +1,28 @@
+# Chat 06 Handoff DataMate
+- Ngày chốt: 2026-10-30; Windows project root: `D:\ZALO`.
+- Đã xác minh Windows: 14/14 pipeline unittest pass; full train và public smoke đều hoàn thành.
+- Cài đặt: Chat 6 Groups 1–4; Python 3.11, Pydantic 2.14.2; planner mặc định `heuristic`, không có local LLM.
+- Runner một câu/batch: `python -m datamate.run --split train --question-id <id>`; outputs dưới `artifacts/runs/<run_id>/`.
+- Full runner: `python -m datamate.full_run --split train --run-id chat06_group4_train`.
+- Public smoke: `python -m datamate.full_run --split public_test --run-id chat06_group4_public`.
+- Resume: chạy lại cùng run ID và cùng questions hash/planner; checkpoint phải có đủ cặp predictions/evidence.
+- Full runner tạo `predictions.jsonl`, `evidence.jsonl`, `manifest.json`, `metrics.json`, `error_report.csv`.
+- Train Windows run ID `chat06_group4_train`, version `chat06-group4-v1`, SHA256 questions `b258ebd978a6d51b3b0b431b26926f958e56522beeb7da2984fea8333e21cec1`.
+- Train 3.000 câu: 7 answer (6 number, 1 percent), 2.993 abstain; 2.993 planner failures, 7 execution thành công.
+- Full train elapsed 18.115 s Windows; execution total 17.711 s, planner total 0.08 s (một lần chạy).
+- Eval riêng `biz_129`: 118 câu, 7 đúng, 0 sai, 111 abstain; score +7, coverage 5.93%, runtime 13.574 s Windows.
+- 7 đúng gồm revenue 4, order_count 2, cancel_rate 1; không suy ra độ chính xác trên business khác.
+- Validation/holdout phân theo business ID, nhưng chưa có business được hỗ trợ trong các tập đó; metrics accuracy là null.
+- Không chọn threshold xác suất: giữ hard gates; không dùng confidence tự khai của LLM.
+- Safety gates: plan identity/allowlist, train biz_129/ruleset, period, provenance, row counts/JOIN, answer type/shape; lỗi thành abstain.
+- Unanswerable chỉ khi cancel rate có mẫu số 0 được chứng minh; số 0 thường vẫn là answer.
+- Validator format chính thức: `type=abstain`; percent JSON number; date `YYYY-MM` hoặc `YYYY-MM-DD`; table `{columns,rows}`.
+- Public Windows run ID `chat06_group4_public`, questions SHA256 `b33ae585ed5d4acdacbd6a2873d442e3a5673a8238b6e932827f40c48c158832`.
+- Public 1.000/1.000 dòng hợp lệ về cấu trúc, 1.000 abstain, coverage 0%, elapsed 0.043 s; không có public accuracy.
+- `artifacts/submissions/candidate_chat06_group4_public.jsonl` chỉ là smoke artifact, KHÔNG nộp leaderboard.
+- Public blocker: rulebook/config/business executor cho public chưa được xác minh/bật; runner cố ý abstain mọi câu.
+- Hỗ trợ thật hiện chỉ `train/biz_129`: revenue, order_count, cancel_rate; time planner có nhưng submission date chưa nối evidence.
+- Các business/family khác thuộc backlog; không hard-code đáp án theo question/business ID.
+- Chat 7 cần `metrics.json`, `error_report.csv`, split manifest, public smoke report, family inventory và public rulebook/config.
+- Ưu tiên Chat 7: chọn một bucket cải thiện dựa trên 2.993 planner abstain và thiếu public support; xác minh rulebook/schema trước khi mở coverage.
+- Leaderboard thử trước đó: file `submission_v071.jsonl` có 11 answer/1.000 và điểm người dùng báo 0,001; không dùng điểm tổng làm nhãn từng câu.

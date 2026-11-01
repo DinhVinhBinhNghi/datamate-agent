@@ -1,0 +1,29 @@
+{
+  "split": "public_test",
+  "business_id": "dev_002",
+  "sources": {
+    "orders": {
+      "format": "xlsx_fragments",
+      "path_glob": "data/dev_002/BanHang_T*_*.xlsx",
+      "expected_files": 17,
+      "sheet": "DonHang_ChiTiet",
+      "header_row": 3,
+      "order_key": "Mã đơn hàng",
+      "semantic_columns": {
+        "order_id": "Mã đơn hàng",
+        "order_date": "Ngày đặt hàng",
+        "status": "Trạng thái đơn hàng"
+      }
+    }
+  },
+  "order_header": {
+    "order_id_pattern": "^ORD[0-9]+$",
+    "data_start": "2025-01-01",
+    "data_end": "2026-05-24"
+  },
+  "rulesets": {
+    "order_count": "public_test/rulebook.md §1",
+    "cancel_count": "public_test/rulebook.md §1",
+    "cancel_rate": "public_test/rulebook.md §1"
+  }
+}

@@ -1,0 +1,28 @@
+# Chat 03 Handoff — DataMate
+- Command đã chạy: `python -m datamate.load_business --split train --business-id biz_129`.
+- Smoke: `python -m datamate.smoke_pipeline --split train --business-id biz_123`.
+- Tests: Group 2 + 3 `11 passed`; cache benchmark raw round-trip equality `true`.
+- Config đã verified: `train/biz_129.json`, `train/biz_116.json`, `train/biz_123.json`.
+- CSV pilot: `biz_129/don_hang.csv`, grain một dòng/đơn, khóa `Số phiếu`.
+- CSV columns used: `Số phiếu`, `Ngày bán`, `Tình trạng đơn`, `Phải thu`, `Thanh toán`, `Dư nợ`.
+- XLSX pilot: `biz_116/Bao_cao_ban_hang.xlsx`, sheet `So_chi_tiet_ban_hang`, grain một dòng hàng; đơn lặp theo README.
+- XLSX columns used: `Ngày`, `Mã đơn hàng`, `Tên hàng hóa`, `Số lượng`, `Đơn giá`, `Thành tiền`, `Trạng thái`.
+- SQLite pilot: `biz_123/pos.sqlite`, tables `don_hang` và `chi_tiet_don`, ngày text.
+- SQLite columns used: `MaHoaDon`, `NgayLap`, `TinhTrang`, `TongThanhToan`, `KhachDaTra`, `ConPhaiThu`, `TriGia`, `SLQuyDoi`.
+- JOIN verified: `don_hang.MaHoaDon -> chi_tiet_don.MaHoaDon`, `one_to_many`, unmatched hai phía = 0.
+- JOIN invariants: header total tính trước JOIN; unexpected many-to-many fail; identical detail rows preserved.
+- Smoke: orders 33,630; lines/joined 64,149; inflation 1.907493309545049.
+- Direct runtime Windows: CSV warm 0.021409s; SQLite warm 0.155441/0.173695s.
+- XLSX direct runtime: first 12.256567s; warm median 5.404229s; Python peak 37.87 MiB.
+- Cache quyết định: targeted cache cho `train/biz_116/sales_lines`; không cache CSV/SQLite.
+- Cache benchmark: direct warm 4.891089s; cached warm 0.176988s; speedup 27.635x.
+- Cache key gồm source SHA-256, config SHA-256, loader version; build atomic dưới `data/cache`.
+- Cache path: `data/cache/train/biz_116/sales_lines/<cache-key>.sqlite`; SQLite read-only khi đọc.
+- Artifacts: `artifacts/loader/smoke_result.json`, `quality_report.json`, `runtime_profile.json`, `cache_benchmark.json`.
+- Chuẩn load: `python -m datamate.load_business --split train --business-id <id>`.
+- Chuẩn cache: thêm `--use-cache`; hiện chỉ dùng cho `train/biz_116`.
+- API Chat 4/5 được dùng: `read_config`, `load_source`, `load_source_cached`, `validated_join`, DataFrame raw + provenance.
+- Provenance: `_source_file`, `_source_sheet_or_table`, `_source_row`; raw values không ghi đè.
+- Public support hiện tại: chưa verify config/source public trong Chat 3; không tuyên bố public coverage.
+- Backlog: public configs, mở rộng business, JOIN khác, answer functions, planner, scorer, cache invalidation tests.
+- Lỗi đã gặp và sửa: Windows WinError 32 do SQLite connection chưa đóng trước atomic replace.

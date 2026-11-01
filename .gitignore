@@ -1,0 +1,51 @@
+﻿gitignore
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Data
+data/source/*.zip
+data/raw/
+data/cache/
+
+# Artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Training and evaluation
+/train/
+/public_test/
+/submissions/
+/results/
+/logs/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Excel files
+*.xlsx
+*.xls
+
+# Archives
+*.zip
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Keys and certificates
+*.pem
+*.key

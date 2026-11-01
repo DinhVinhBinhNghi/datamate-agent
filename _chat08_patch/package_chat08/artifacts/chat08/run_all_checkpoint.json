@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "generated_at_utc": "2026-10-30T16:11:20.528702+00:00",
+  "project_root": "extracted",
+  "output_dir": "artifacts/chat08",
+  "inventory_validation": {
+    "train": {
+      "count": 3000,
+      "expected_count": 3000,
+      "unique_ids": 3000,
+      "duplicate_ids": [],
+      "missing_primary_family": 0,
+      "unknown_count": 311,
+      "ambiguous_count": 684,
+      "business_count": 30
+    },
+    "public_test": {
+      "count": 1000,
+      "expected_count": 1000,
+      "unique_ids": 1000,
+      "duplicate_ids": [],
+      "missing_primary_family": 0,
+      "unknown_count": 132,
+      "ambiguous_count": 299,
+      "business_count": 14
+    },
+    "passed": true
+  },
+  "archetype_validation": {
+    "business_count": 44,
+    "train_business_count": 30,
+    "public_business_count": 14,
+    "table_count": 502,
+    "scan_error_business_count": 0,
+    "scan_errors": {}
+  },
+  "priority_validation": {
+    "bucket_count": 25,
+    "dev002_total": 41,
+    "baseline_answered_ids": 10,
+    "wave1_added_ids": 8,
+    "dev002_remaining": 23,
+    "decisions": {
+      "PRIMARY": "A_dev002_remaining_23",
+      "SECONDARY": "B_dev_006_sales_core",
+      "STRETCH": "C_product_customer_debt_inventory",
+      "STRETCH_PILOT": "C_dev006_relational_extensions"
+    },
+    "ordinal_scale_note": "question_count measured; exactness/transfer 1=low,2=medium,3=high; effort/risk 1=low to 5=high; scores rank only within this audit"
+  },
+  "note": "Read-only scan; no public answers or candidate submission are generated."
+}

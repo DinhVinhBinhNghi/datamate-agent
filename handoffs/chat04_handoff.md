@@ -1,0 +1,25 @@
+# Chat 04 Handoff — DataMate
+- Inventory: 3,000 train questions; heuristic single-label, not ground truth; unknown 528 (17.6%).
+- Family counts observed: revenue 1,021; time 479; industry 237; growth/comparison 183; cancel 171; order_count 118; ranking/unit 98; list/date/string/boolean/table 60; purchase/inventory/COGS 53; debt/payment 52.
+- Approved scope: time, revenue, order_count, cancel. Chosen because frequent and verifiable with current pilot sources.
+- Rules: train/rulebook.md §1-2 for time/revenue/order/cancel; biz_129 README for source/grain.
+- Independent ruleset provenance: train and public_test rulebooks kept separate; no public metric enabled.
+- Time API: `resolve_period(expression, as_of_date, calendar, ruleset)`; deterministic, inclusive endpoints, snapshot mode; unsupported expressions fail closed.
+- Time command: `python -m datamate.business.time_operation --expression "tháng này" --as-of-date 2024-02-29 --calendar train\calendar.csv --ruleset train`.
+- Revenue API: `calculate_revenue(config, data_root, period_expression, as_of_date)`; only train/biz_129.
+- Revenue rule: sum detail `Tiền bán` after line discounts; exclude cancelled and returned orders; date by order date; Decimal VND parsing.
+- Revenue oracle Jan 2025: 955,917,000 VND; eligible detail rows 6,929; unmatched rows 0; Windows runtime 2.147945s.
+- Order count API: `calculate_order_count(...)`; header grain keyed by `Số phiếu`; exclude cancelled/returned; shipping remains eligible.
+- Order count Jan 2025: 1,841 / 1,880 all-status orders; Windows runtime 0.575677s.
+- Cancel API: `calculate_cancellations(...)`; count cancelled / all orders placed in period; returns stay in denominator, not numerator.
+- Cancel Jan 2025: 36 / 1,880 = 1.91%; returned orders 3; Windows runtime 0.072928s.
+- Tests: time/status 16 passed, time operation 1 passed; revenue 4 passed; order_count 1 passed; cancel 1 passed; oracle plan 1 passed on Windows.
+- Oracle DSL: JSONL `artifacts/business/oracle_plans_train.jsonl`; allowlist: resolve_period, revenue, order_count, cancel_rate.
+- Oracle Windows: 4 plans, 4 checks pass, 0 unsupported, 0 errors; report `artifacts/business/oracle_report.md`; results `oracle_results.jsonl`.
+- Error layers: loader, execution, formatter; unsupported public/business is explicit; no LLM planner.
+- Supported business: train/biz_129 for revenue/order_count/cancel; time resolver uses train calendar.
+- Public support: blocked; separate public configs and oracle cases not completed. Do not infer train formulas without public validation.
+- Backlog: growth/comparison 183; ranking/unit 98; debt/payment 52; purchase/inventory/COGS 53; industry 237; other output families 60; unknown 528.
+- Backlog blockers: paired-period logic; unit/tie/display contract; debt snapshot/payment flow; source/grain contracts; industry-specific capabilities; classifier coverage.
+- Chat 5/6 API: `read_config`, `load_source`, `resolve_period`, `revenue_eligible`, `order_count_eligible`, `is_cancelled`, `calculate_revenue`, `calculate_order_count`, `calculate_cancellations`, `execute_plan`.
+- Limitations: no golden answer set scoring beyond four handwritten plans; runtime figures are one Windows run; not production-ready; no leaderboard submit.

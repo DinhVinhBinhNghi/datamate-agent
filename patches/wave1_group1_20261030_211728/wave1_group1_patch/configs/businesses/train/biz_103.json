@@ -1,0 +1,53 @@
+{
+  "split": "train",
+  "business_id": "biz_103",
+  "archetype": "monthly_excel_sales_lines",
+  "readme": "data/biz_103/README.md",
+  "sources": {
+    "orders": {
+      "format": "xlsx_sheets",
+      "path": "data/biz_103/DonHang_ChiTiet.xlsx",
+      "sheet_pattern": "^[0-9]{2}\\.[0-9]{4}$",
+      "expected_sheets": 16,
+      "header_row": 2,
+      "forward_fill_columns": [
+        "Mã đơn hàng",
+        "Ngày đặt hàng",
+        "Trạng thái đơn hàng"
+      ],
+      "semantic_columns": {
+        "order_id": "Mã đơn hàng",
+        "order_date": "Ngày đặt hàng",
+        "status": "Trạng thái đơn hàng",
+        "product_name": "Tên sản phẩm",
+        "line_amount": "Tổng tiền"
+      }
+    }
+  },
+  "monthly_sales": {
+    "source": "orders",
+    "grain": "order_product_line",
+    "line_amount_semantics": "line_amount_after_discount",
+    "order_id_pattern": "^ORD[0-9]+$",
+    "data_start": "2025-04-01",
+    "data_end": "2026-07-09"
+  },
+  "audit_expectations": {
+    "source_fragment_count": 16,
+    "row_count_before_filter": 45534,
+    "row_count_after_structural_filter": 45534,
+    "structural_rows_excluded": 0,
+    "distinct_orders": 18133,
+    "date_start": "2025-04-01",
+    "date_end": "2026-07-09",
+    "status_counts": {
+      "Hoàn trả": 180,
+      "Thành công": 16347,
+      "hàng trả về": 463,
+      "hủy đơn": 769,
+      "Đang giao dịch": 23,
+      "Đã hủy đơn": 483,
+      "đã lấy": 27269
+    }
+  }
+}

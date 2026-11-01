@@ -1,0 +1,14 @@
+{
+  "bucket_count": 25,
+  "dev002_total": 41,
+  "baseline_answered_ids": 10,
+  "wave1_added_ids": 8,
+  "dev002_remaining": 23,
+  "decisions": {
+    "PRIMARY": "A_dev002_remaining_23",
+    "SECONDARY": "B_dev_006_sales_core",
+    "STRETCH": "C_product_customer_debt_inventory",
+    "STRETCH_PILOT": "C_dev006_relational_extensions"
+  },
+  "ordinal_scale_note": "question_count measured; exactness/transfer 1=low,2=medium,3=high; effort/risk 1=low to 5=high; scores rank only within this audit"
+}

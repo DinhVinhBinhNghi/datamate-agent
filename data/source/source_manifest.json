@@ -1,0 +1,1843 @@
+﻿{
+    "manifest_created_at_utc":  "2026-10-29T15:50:25.2822735Z",
+    "project_root":  "D:\\ZALO",
+    "zip_sources":  [
+                        {
+                            "name":  "train.zip",
+                            "status":  "not_found_during_group1",
+                            "sha256":  null
+                        },
+                        {
+                            "name":  "public_test.zip",
+                            "status":  "not_found_during_group1",
+                            "sha256":  null
+                        }
+                    ],
+    "extracted_roots":  {
+                            "train":  {
+                                          "path":  "D:\\ZALO\\train",
+                                          "file_count":  162,
+                                          "files":  [
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "answers.jsonl",
+                                                            "size_bytes":  244269,
+                                                            "sha256":  "0B5FE9D13EDF5FAE306BDA9CAFAF699C06B639846C8E1D9E41C39A86D1160B3D",
+                                                            "last_write_time":  "2026-10-28T08:14:29.8991447Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "calendar.csv",
+                                                            "size_bytes":  44048,
+                                                            "sha256":  "C2579905E8B4EB152A4833B05F1F72DE3E3D2C517B5D610D7664AEEB2D6A75B3",
+                                                            "last_write_time":  "2026-10-28T08:14:29.8521506Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "questions.jsonl",
+                                                            "size_bytes":  504081,
+                                                            "sha256":  "B258EBD978A6D51B3B0B431B26926F958E56522BEEB7DA2984FEA8333E21CEC1",
+                                                            "last_write_time":  "2026-10-28T08:14:29.9101486Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "rulebook.md",
+                                                            "size_bytes":  18515,
+                                                            "sha256":  "740267BCCBA29DF70F745BC39968BBEC5B3E62DADA2C858C45314F3EC723D113",
+                                                            "last_write_time":  "2026-10-28T08:14:29.9191458Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_101\\ban_hang.csv",
+                                                            "size_bytes":  5356971,
+                                                            "sha256":  "0C52E0F7BECC6B4E928793F564B8D61809CD1F8CC03E40683C84E8EC12BC8E5F",
+                                                            "last_write_time":  "2026-10-28T08:14:32.0217609Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_101\\README.md",
+                                                            "size_bytes":  4262,
+                                                            "sha256":  "C71CF95A70EB10D08546BBF7755D55509D6410E009119579C4528720DADB125A",
+                                                            "last_write_time":  "2026-10-28T08:14:31.9857173Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_102\\DanhSachQuyDoi.xlsx",
+                                                            "size_bytes":  7331,
+                                                            "sha256":  "9446644C5E207599C027E7714A06E118307568BB5D06A2F66246F6D500A6B22E",
+                                                            "last_write_time":  "2026-10-28T08:14:30.0623542Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_102\\DonHang_ChiTiet.xlsx",
+                                                            "size_bytes":  4164123,
+                                                            "sha256":  "81040A59E3CD95F9F1D02C942D7A636BE4F476676E5917C15FF8529EE4BBD1F7",
+                                                            "last_write_time":  "2026-10-28T08:14:30.1162292Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_102\\README.md",
+                                                            "size_bytes":  1562,
+                                                            "sha256":  "6D857CE98B60E60A31147247C7339A5D9AC935987DA3042FAA14FB4022E04551",
+                                                            "last_write_time":  "2026-10-28T08:14:30.0673521Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_103\\DanhSachQuyDoi.xlsx",
+                                                            "size_bytes":  7331,
+                                                            "sha256":  "9446644C5E207599C027E7714A06E118307568BB5D06A2F66246F6D500A6B22E",
+                                                            "last_write_time":  "2026-10-28T08:14:30.0091282Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_103\\DonHang_ChiTiet.xlsx",
+                                                            "size_bytes":  1732323,
+                                                            "sha256":  "EBA63EA1F9A684E0064A18D1728D2848761DB398520464177DAF5FE4C11AA7E1",
+                                                            "last_write_time":  "2026-10-28T08:14:30.0463370Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_103\\README.md",
+                                                            "size_bytes":  1239,
+                                                            "sha256":  "2DCC4D7968FD2D7B74BF4EE2AAE5F2BFCA9DBDAC69346148325E2AE8D82B3622",
+                                                            "last_write_time":  "2026-10-28T08:14:30.0161287Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_104\\DanhSachQuyDoi.xlsx",
+                                                            "size_bytes":  4974,
+                                                            "sha256":  "5078C10892C20F1E34C750E42AA66EF5F3D159EB0D22C37F84A727E98CB6852A",
+                                                            "last_write_time":  "2026-10-28T08:14:29.9401473Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_104\\DonHang_ChiTiet.xlsx",
+                                                            "size_bytes":  2712353,
+                                                            "sha256":  "0F233D852B41E2E19CB4E3DF3C7926BBCF123D75CA723763411CE84BAFEBF386",
+                                                            "last_write_time":  "2026-10-28T08:14:29.9886219Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_104\\README.md",
+                                                            "size_bytes":  1470,
+                                                            "sha256":  "70955B88B93C4D4D4B5DE1806ED212A9599B9CF9FB959AFDC3A042C301AF3AB2",
+                                                            "last_write_time":  "2026-10-28T08:14:29.9486210Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\BangGia.xlsx",
+                                                            "size_bytes":  6795,
+                                                            "sha256":  "24C3658D579CC0C5046B8E04E10C32266316A7DDCE40B72A665A30D8EBE8EAE7",
+                                                            "last_write_time":  "2026-10-28T08:14:30.1322292Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\DanhMuc.xlsx",
+                                                            "size_bytes":  4958,
+                                                            "sha256":  "3CC9A8E184706FE4AF564600AA7C5695D90E7A2B0185D7ADF1446867EB5F8586",
+                                                            "last_write_time":  "2026-10-28T08:14:30.2508565Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\README.md",
+                                                            "size_bytes":  3083,
+                                                            "sha256":  "A73DB6B16C8768C2FCA49D10E6E8DCB6CC1054881C63C8AFCBEF487AE025A326",
+                                                            "last_write_time":  "2026-10-28T08:14:30.1492245Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\SoBanHang_1.xlsx",
+                                                            "size_bytes":  5250351,
+                                                            "sha256":  "387E4151CD4DFC3DAD8C7FB2C3CBA91DBA9403EA9C1BB15EE70E4605ECC8D335",
+                                                            "last_write_time":  "2026-10-28T08:14:30.2379334Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\SoBanHang_2026.xlsx",
+                                                            "size_bytes":  2198939,
+                                                            "sha256":  "FB1FD5DA18BD4128429A6F8C8C07DE13ADA8F75CB79B795344DAF72E86F08273",
+                                                            "last_write_time":  "2026-10-28T08:14:30.1775529Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\SoNhapHang.xlsx",
+                                                            "size_bytes":  60958,
+                                                            "sha256":  "F462D1BB26EF9C33B647C8B2382670DD11265BC96270BAF5B75907A5959680B6",
+                                                            "last_write_time":  "2026-10-28T08:14:30.2608579Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_105\\TonKho.xlsx",
+                                                            "size_bytes":  6067,
+                                                            "sha256":  "093FA583177476DCCF4CC23FF1376CC3AA493FD365049632E2B5404269055EF9",
+                                                            "last_write_time":  "2026-10-28T08:14:30.1422245Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\BaoCaoTonKho.xlsx",
+                                                            "size_bytes":  6422,
+                                                            "sha256":  "DF3BD6D0ACFAAB22C1A69DBA3AC6643D971A06776B3CA417E4BB8F3653DA967D",
+                                                            "last_write_time":  "2026-10-28T08:14:31.8528154Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachChiTietNhapHang.xlsx",
+                                                            "size_bytes":  50490,
+                                                            "sha256":  "4BFA60CF0851D3102820F1DD0724CB7A3E89F6F25FDBBCDC8693BBB4C3509E12",
+                                                            "last_write_time":  "2026-10-28T08:14:31.8708152Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachDonViTinh.xlsx",
+                                                            "size_bytes":  4941,
+                                                            "sha256":  "D885D01AC84278AD12CAEAC6FFF3A1FA68A045F1DE5BE84DC446371600B230BA",
+                                                            "last_write_time":  "2026-10-28T08:14:31.8648181Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachHoaDon.xlsx",
+                                                            "size_bytes":  4490407,
+                                                            "sha256":  "BDB2CD6DA60ABB0355072478F29F906378FCCB7E4A40BB0BB436D2A8C7644CC1",
+                                                            "last_write_time":  "2026-10-28T08:14:31.8468154Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachHoaDonChiTiet_1.xlsx",
+                                                            "size_bytes":  4855395,
+                                                            "sha256":  "89F31DD5D91536FA133008CA8E0032CE0253BB61F580BB3F98F7A1D1CD277804",
+                                                            "last_write_time":  "2026-10-28T08:14:31.9270435Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachHoaDonChiTiet_2.xlsx",
+                                                            "size_bytes":  1431527,
+                                                            "sha256":  "9737A62DA1E22537927005DBD8280F1A1E9F9FD0A63CF42B4DA1092FDFD6DC7D",
+                                                            "last_write_time":  "2026-10-28T08:14:31.7994197Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachKhachHang.xlsx",
+                                                            "size_bytes":  17679,
+                                                            "sha256":  "E430BF5A46802D2167660D0B645D36A0AFC2A7F45697958CDEF0A1E9B738EFC9",
+                                                            "last_write_time":  "2026-10-28T08:14:31.7784225Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachNhapHang.xlsx",
+                                                            "size_bytes":  19054,
+                                                            "sha256":  "53A6371723C69EB1CF3CB24FD188E7168532A6368F97FEFA490C9FCBF35ADE32",
+                                                            "last_write_time":  "2026-10-28T08:14:31.9410507Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\DanhSachSanPham.xlsx",
+                                                            "size_bytes":  9031,
+                                                            "sha256":  "8118BB300D091607FA1F6F4C862AA45757A00CBBF4A9A238C2A487DD844C3025",
+                                                            "last_write_time":  "2026-10-28T08:14:31.9330537Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\README.md",
+                                                            "size_bytes":  1135,
+                                                            "sha256":  "F9A2ED4A39F784CC16180F013A2F56AE44B7AAB33E5FBAA4899AF8C54BBB3515",
+                                                            "last_write_time":  "2026-10-28T08:14:31.8588171Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_106\\SoQuy.xlsx",
+                                                            "size_bytes":  2621767,
+                                                            "sha256":  "3B60C2A2FE0EC33ED756AF91F7686CF591487BE426047E0163F378A24C34A523",
+                                                            "last_write_time":  "2026-10-28T08:14:31.9755232Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_107\\README.md",
+                                                            "size_bytes":  4259,
+                                                            "sha256":  "8F1BB9E115BFFDAD77E112E42642EC86AB806AF7F13BCFDB24DFCFA5E8C964DF",
+                                                            "last_write_time":  "2026-10-28T08:14:31.7444168Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_107\\SoBanHang.xlsx",
+                                                            "size_bytes":  1697393,
+                                                            "sha256":  "3C3B863D1C88656CA4EFE2048240C24DECFA0B6AC40655F0E57DF5A4F2C7F188",
+                                                            "last_write_time":  "2026-10-28T08:14:31.7664176Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\BaoCaoTonKho.xlsx",
+                                                            "size_bytes":  7156,
+                                                            "sha256":  "D409C65E108B55167BFAED3738EAB9581589519C07589F68E3E5928A4E7625D9",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1127587Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\DanhSachChiTietNhapHang.xlsx",
+                                                            "size_bytes":  70954,
+                                                            "sha256":  "498F816FD4F3E16716D4EE61C4D69999499031E9AC4D055B276605B353B8FBE3",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1281671Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\DanhSachHoaDon.xlsx",
+                                                            "size_bytes":  2054137,
+                                                            "sha256":  "3C5B6B6B2CDBB4378654454373A800D15D5A50A1DD80063126CF894B98F9A26B",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1057560Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\DanhSachHoaDonChiTiet.xlsx",
+                                                            "size_bytes":  3945077,
+                                                            "sha256":  "33492FDEA8D49A72E5DA58F9F0BFA13CC2BBB352003937CF85956D094E6DD425",
+                                                            "last_write_time":  "2026-10-28T08:14:32.0777566Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\DanhSachKhachHang.xlsx",
+                                                            "size_bytes":  26957,
+                                                            "sha256":  "EE65181E469011C92E0D67D6FDDFF4459474BE7388F7682E3A341A4F66AE4973",
+                                                            "last_write_time":  "2026-10-28T08:14:32.0337568Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\DanhSachNhapHang.xlsx",
+                                                            "size_bytes":  18728,
+                                                            "sha256":  "0082CDCD48C648F642C69E838DD6B3F91D588EF5C99FB208A697D32D45A8F591",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1425347Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\DanhSachSanPham.xlsx",
+                                                            "size_bytes":  8709,
+                                                            "sha256":  "41AA5F6D4CB612ACA857294D4263F4BD071F80715D14134E14038FD54F6BBF21",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1355247Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_108\\README.md",
+                                                            "size_bytes":  7086,
+                                                            "sha256":  "47A853FFB79A0449190A5E331B209977A3A4B323943521C0D28037D01397E9C9",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1200374Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_109\\DanhSachHoaDonChiTiet.xlsx",
+                                                            "size_bytes":  4680160,
+                                                            "sha256":  "5E12FC47C74736C4FFEEDAEBAC162816686E9C190117DC1E05109B76024468B9",
+                                                            "last_write_time":  "2026-10-28T08:14:31.6862436Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_109\\DuLieuBanHang.xlsx",
+                                                            "size_bytes":  3611239,
+                                                            "sha256":  "36E462B86A18CFDD30C49DFE52367D5F49D08F92966039442D2B08F81001F600",
+                                                            "last_write_time":  "2026-10-28T08:14:31.7264090Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_109\\README.md",
+                                                            "size_bytes":  1100,
+                                                            "sha256":  "77FAD305FC6460C804107B5D928570D1C3ABF4D1CD3C0E5A27A3053FB5F3C0D3",
+                                                            "last_write_time":  "2026-10-28T08:14:31.7344199Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_110\\danh_sach_hoa_don.csv",
+                                                            "size_bytes":  2263247,
+                                                            "sha256":  "5A9187792BBBD94B19B8526FD277A25F2A8E1F0B64CFE6B86E3853EEABD7494E",
+                                                            "last_write_time":  "2026-10-28T08:14:31.4020778Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_110\\README.md",
+                                                            "size_bytes":  911,
+                                                            "sha256":  "85A5AECCE97F14D3841CB259D375962131B0B04D1E6B009C343C39C3DCDE265F",
+                                                            "last_write_time":  "2026-10-28T08:14:31.3767706Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_111\\chi_tiet_don.csv",
+                                                            "size_bytes":  4262790,
+                                                            "sha256":  "977218D1B3D0B1A3EB9188D305275AB973FC4F3A9AE294E1B81C6DE37D82AC1B",
+                                                            "last_write_time":  "2026-10-28T08:14:30.6049805Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_111\\don_hang.csv",
+                                                            "size_bytes":  4148992,
+                                                            "sha256":  "18BCA47E5EA21F43664ED7D69E3B6F1DC3C1E25B7B54F9052098777C22214A1E",
+                                                            "last_write_time":  "2026-10-28T08:14:30.6461498Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_111\\khach_hang.csv",
+                                                            "size_bytes":  23670,
+                                                            "sha256":  "D1B27EA42EE453059E9560F382BC2147B37A9146C88E864B0BC50A58C56C12D7",
+                                                            "last_write_time":  "2026-10-28T08:14:30.5242470Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_111\\README.md",
+                                                            "size_bytes":  2033,
+                                                            "sha256":  "F8915C1D420A59ECAD992CE62A0AFE4BA1D017BAF9CCF336D554EA5E9CE101A8",
+                                                            "last_write_time":  "2026-10-28T08:14:30.5292422Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_111\\san_pham.csv",
+                                                            "size_bytes":  4027,
+                                                            "sha256":  "BC64EA41056FE880858A34D09A46693237428B5C19B37E04A148C79226FCCEA9",
+                                                            "last_write_time":  "2026-10-28T08:14:30.5092408Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_111\\thanh_toan.csv",
+                                                            "size_bytes":  3519305,
+                                                            "sha256":  "5EB1967401E520DADB633AF4AE82C26629D3FDE54E74729A7C09BFC3C1B0AF51",
+                                                            "last_write_time":  "2026-10-28T08:14:30.5665605Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_112\\Danh s├ích h├áng h├│a.xlsx",
+                                                            "size_bytes":  7759,
+                                                            "sha256":  "6F68E3121A8F3D8FC1DE521527C9CA2F01FDE91C4D6F7AF8C2F0B9E0A9648DE9",
+                                                            "last_write_time":  "2026-10-28T08:14:32.2575819Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_112\\README.md",
+                                                            "size_bytes":  1726,
+                                                            "sha256":  "358A56A6030C5EC3AE1507C1F771D66D61C08C3521FCBBE32DF58F343D9D5878",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3085149Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_112\\So_chi_tiet_ban_hang_1.xlsx",
+                                                            "size_bytes":  3723763,
+                                                            "sha256":  "0AABA15EF31BB48C48CB34280D80844819D631692C26E4E20AF2430421523C06",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3035113Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_112\\So_chi_tiet_ban_hang_2026.xlsx",
+                                                            "size_bytes":  567451,
+                                                            "sha256":  "547C093995C1709E72C7AFBF010A817720A00B4168A4DF1992F246CF6466BDD1",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3205106Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_113\\README.md",
+                                                            "size_bytes":  1330,
+                                                            "sha256":  "B4049FCEB2BC428C311FCEB768E68FD448739CB58136F682F591B6F7CA1E894C",
+                                                            "last_write_time":  "2026-10-28T08:14:33.0495572Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_113\\SoBanHang.xlsx",
+                                                            "size_bytes":  1261484,
+                                                            "sha256":  "187CA4EBBE8A453B0F679303D25713D10AED087DB742C271462A011A6307257D",
+                                                            "last_write_time":  "2026-10-28T08:14:33.0685667Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_114\\ban_hang.csv",
+                                                            "size_bytes":  2672061,
+                                                            "sha256":  "1F99DFCF691EB2EE1B250871F3A7B4FB0E0374E81B557099B338F928FFF06DB3",
+                                                            "last_write_time":  "2026-10-28T08:14:33.0393784Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_114\\README.md",
+                                                            "size_bytes":  1286,
+                                                            "sha256":  "F4B00C37C2C8E21CEF94B2BBE6D2DC97752C6A8035B784CF9F5B507C7D01BC03",
+                                                            "last_write_time":  "2026-10-28T08:14:33.0143829Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_115\\Bß║úng k├¬ phiß║┐u giao h├áng.xlsx",
+                                                            "size_bytes":  955401,
+                                                            "sha256":  "64141D9A1D5F5535955FCAB7BE5DCC56CFCAA86C4682B046E126F8C7282B2FB3",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3510096Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_115\\Chi tiß║┐t c├┤ng nß╗ú theo hß║ín.xlsx",
+                                                            "size_bytes":  41522,
+                                                            "sha256":  "814F7133EAD26F2A435F0CD5EA1F1451186AC9D9D8AB90E80252DCFF8DBF322F",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3866666Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_115\\Danh s├ích h├áng h├│a.xlsx",
+                                                            "size_bytes":  8637,
+                                                            "sha256":  "2ECFE29C692C080181092C18D5D7BB6D48FF9D796229099A8E221F1C09B53581",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3338586Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_115\\README.md",
+                                                            "size_bytes":  3253,
+                                                            "sha256":  "B30A5C7E5FA7C1D95CBD228A4EE95C9109C7A2E51F98B3011E37EDD57EDB9BB8",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3786579Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_115\\So_chi_tiet_ban_hang.xlsx",
+                                                            "size_bytes":  1537339,
+                                                            "sha256":  "02F4854BA155FA8A26D5586DB9408FA36BC0566863CE81945D521000F82F16ED",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3720103Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_116\\Bao_cao_ban_hang.xlsx",
+                                                            "size_bytes":  3467387,
+                                                            "sha256":  "7E9579FD32E96BC0DBD0602E1B36522D41479C31CCD10D18C709FA5D413A2227",
+                                                            "last_write_time":  "2026-10-28T08:14:30.4787152Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_116\\README.md",
+                                                            "size_bytes":  3348,
+                                                            "sha256":  "E0FAA6EDACE43BAD6E8DB0A90DFE716EB09CDD38ABB89ECDCE3A926850CC3F1C",
+                                                            "last_write_time":  "2026-10-28T08:14:30.4868607Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\BangGia.xlsx",
+                                                            "size_bytes":  7933,
+                                                            "sha256":  "B2B124B20ABDE7A53DABC177973958B72CD171BD1678400FCDDD048C057C0FB5",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5717040Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\DanhMuc.xlsx",
+                                                            "size_bytes":  5419,
+                                                            "sha256":  "83CCF3E364C3680F706C33C3D87B6FC099FF5766CB08FD2B88CC95D96A828C2D",
+                                                            "last_write_time":  "2026-10-28T08:14:31.6231614Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\README.md",
+                                                            "size_bytes":  3721,
+                                                            "sha256":  "0E237A73FE29DCD5A8E4AAB110E8D9B6ABF2FD5BE9555E1F25A2A242EE463E26",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5911622Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\SoBanHang.xlsx",
+                                                            "size_bytes":  2057708,
+                                                            "sha256":  "56212E51338D57C82DBCA1685FDEFC5A2CECFBDF2F3AE1750ADFA7F2C2B2F2D9",
+                                                            "last_write_time":  "2026-10-28T08:14:31.6171602Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\SoGiaoHang.xlsx",
+                                                            "size_bytes":  1105555,
+                                                            "sha256":  "BE376B68D6BC845F46CD7F9DD9740B1021F7F03BA32181127B98E783072BDDDD",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5616970Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\SoHanNo.xlsx",
+                                                            "size_bytes":  50319,
+                                                            "sha256":  "F6738EC0B1B3AE512A73B3E7323C9D68D7C1E4853C69D3C96C987139CB240FA5",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5801595Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\SoNhapHang.xlsx",
+                                                            "size_bytes":  62646,
+                                                            "sha256":  "3075B73996E748DA0AE7F258211715C2EAA0F61E3BA6005BDCB9FA7B6691E50E",
+                                                            "last_write_time":  "2026-10-28T08:14:31.6312420Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_117\\TonKho.xlsx",
+                                                            "size_bytes":  6986,
+                                                            "sha256":  "4240A49832A6AE6A53C01D03F1E667361D4F1F493F785A1500561FAD707D3ADA",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5861651Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_118\\Bß║úng k├¬ phiß║┐u giao h├áng.xlsx",
+                                                            "size_bytes":  1543852,
+                                                            "sha256":  "DF15E7D9FF4E16C582C68042CBD177BE178368E5703BEAA058F9D129B3E6EEEF",
+                                                            "last_write_time":  "2026-10-28T08:14:30.6871527Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_118\\Chi tiß║┐t c├┤ng nß╗ú theo hß║ín.xlsx",
+                                                            "size_bytes":  79885,
+                                                            "sha256":  "79B6B0915631BBB45DD6FD74C3687A15942B374E3C21C65BFE4F13213C320992",
+                                                            "last_write_time":  "2026-10-28T08:14:30.7597529Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_118\\Danh s├ích h├áng h├│a.xlsx",
+                                                            "size_bytes":  8303,
+                                                            "sha256":  "45E78E28E83974A34B2106D3A8CE986280E54DED37418FD313BCE2FE75A2AE20",
+                                                            "last_write_time":  "2026-10-28T08:14:30.6571640Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_118\\README.md",
+                                                            "size_bytes":  3065,
+                                                            "sha256":  "823953D5C57F774E437C05B2A1F9115007C82FDF5DE875DCEF8F44E0532DE371",
+                                                            "last_write_time":  "2026-10-28T08:14:30.7464465Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_118\\So_chi_tiet_ban_hang.xlsx",
+                                                            "size_bytes":  2405611,
+                                                            "sha256":  "4D3E8E670D1A1C2F9B1A097E9D160D0A807545D882BB441C9C45FEDA9158E861",
+                                                            "last_write_time":  "2026-10-28T08:14:30.7211080Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\BaoCaoTonKho.xlsx",
+                                                            "size_bytes":  7744,
+                                                            "sha256":  "7F520C4EB36DED3632F00555F3CF1389DF23DD5133CA11647AC22DC2E08A2E14",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2432684Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachChiTietNhapHang.xlsx",
+                                                            "size_bytes":  135947,
+                                                            "sha256":  "D80D35CC37A61534DC7025895E274D12A2D5C36A93DEA8E0155FEA8EF02E82B7",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2595751Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachHoaDon.xlsx",
+                                                            "size_bytes":  2009534,
+                                                            "sha256":  "237DB13E939FDA4E8ABEDFC90CB58683C531DA12EFBAB246F5DECCB82357D1AB",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2345528Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachHoaDonChiTiet.xlsx",
+                                                            "size_bytes":  3131071,
+                                                            "sha256":  "8AD4CCB7BBB07AA789BD68F69EC1916BCDB576D63E59F0503AA7FDA0CDCCD10A",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2095543Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachHoaDonChiTietLo.xlsx",
+                                                            "size_bytes":  1505076,
+                                                            "sha256":  "B1274A6524414F4191083947722D405200E819AC5D416671C792EBC2C5820F70",
+                                                            "last_write_time":  "2026-10-28T08:14:31.3106282Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachKhachHang.xlsx",
+                                                            "size_bytes":  21353,
+                                                            "sha256":  "645458B98C79DCA8B4D267A5C2E4513E73676D15475B284323C5452268F851E0",
+                                                            "last_write_time":  "2026-10-28T08:14:31.1721865Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachLoHang.xlsx",
+                                                            "size_bytes":  97602,
+                                                            "sha256":  "1B380811AC5FDF8504FF0D182E511F1060D75C819AE786161B5E2AD96D1E88CE",
+                                                            "last_write_time":  "2026-10-28T08:14:31.3197684Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachNhapHang.xlsx",
+                                                            "size_bytes":  20043,
+                                                            "sha256":  "60F833A0F2B7DC46B397C1E7E098E77D23293E6E8D8FDB59452D49CCD60C110B",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2765760Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachSanPham.xlsx",
+                                                            "size_bytes":  10015,
+                                                            "sha256":  "A5445594A3621ADF82126AFFDFE9C900DD9EB7B86514C814C114CA4275E56C61",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2665756Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\DanhSachThuoc.xlsx",
+                                                            "size_bytes":  6602,
+                                                            "sha256":  "CF7C82FA578ABA3B63106D49EC12A661A43BB1D2CE9EC102EF4D0CF79C06D18C",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2856293Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_119\\README.md",
+                                                            "size_bytes":  9605,
+                                                            "sha256":  "67FF934147166289E20602783FC5DFA2368FC4593F272D5154C20AE5A1AF30F2",
+                                                            "last_write_time":  "2026-10-28T08:14:31.2485768Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\BaoCaoTonKho.xlsx",
+                                                            "size_bytes":  8250,
+                                                            "sha256":  "E5068AC3804BE2482C6E73A881B1F65886A3127ED4E9854DA42065E11E3E2FF5",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0017526Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachChiTietNhapHang.xlsx",
+                                                            "size_bytes":  168010,
+                                                            "sha256":  "3B6409C460C1FAE8BFC4BBB4F63C1E6B38A3CBBB3DE13FB1055CAAB96BBFEF55",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0185812Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachHoaDon.xlsx",
+                                                            "size_bytes":  2795116,
+                                                            "sha256":  "55520FBA7E8F292CC3EC7790F305683A36EA9900D6278545347DD9F57A312A8C",
+                                                            "last_write_time":  "2026-10-28T08:14:30.9923719Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachHoaDonChiTiet.xlsx",
+                                                            "size_bytes":  4117462,
+                                                            "sha256":  "3787512BBC99B778568DBA82EEC1B8314CDB10525ED4CBEEC84A0347FBEA6C7E",
+                                                            "last_write_time":  "2026-10-28T08:14:30.9563683Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachHoaDonChiTietLo.xlsx",
+                                                            "size_bytes":  2137397,
+                                                            "sha256":  "C66DFA664F5DD506EC6A193FBAD2057FA627D518D599E8DE45EEAE329C09615D",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0781260Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachKhachHang.xlsx",
+                                                            "size_bytes":  22756,
+                                                            "sha256":  "1B95D9F0F46DC7312D1A2CD5641D52F9B8547FDA324509FC5F83B2AB3D7FB6A8",
+                                                            "last_write_time":  "2026-10-28T08:14:30.9123367Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachLoHang.xlsx",
+                                                            "size_bytes":  119578,
+                                                            "sha256":  "5E9FD36C331B532AE77542E9751623A952ACDCDF8E29BC0C9F210C2362A1DDC1",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0861211Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachNhapHang.xlsx",
+                                                            "size_bytes":  19502,
+                                                            "sha256":  "347F3888286060305399DA3364317BB9BD99430868A6FB8ED91173A0531D5FB3",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0387996Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachSanPham.xlsx",
+                                                            "size_bytes":  11009,
+                                                            "sha256":  "E05C20C2282EF34E8938336045CF97E263C03A72F60426A5403A4F1962DA8003",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0295989Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\DanhSachThuoc.xlsx",
+                                                            "size_bytes":  6755,
+                                                            "sha256":  "2296CACDC8F805C2BEC3E5DD0534F47B37109BADE426BA21EDE5AEBBA5626A84",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0501229Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_120\\README.md",
+                                                            "size_bytes":  10107,
+                                                            "sha256":  "4E6629C7EBC7470383FFECCDBFFB5454FF5E14759CDB887C98D5E9FA64BD6CAB",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0067521Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_121\\DonHang_ChiTiet.xlsx",
+                                                            "size_bytes":  3680417,
+                                                            "sha256":  "99C7946A44F8D6A216986865F326340A9ADB778D458C6087648B3053B140DD48",
+                                                            "last_write_time":  "2026-10-28T08:14:31.1361863Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_121\\DuLieuXuat.xlsx",
+                                                            "size_bytes":  1846509,
+                                                            "sha256":  "6A75D08950187C632F4A93C1A7B7FFD06BB56E164E91338631F6F06FC9AADAE4",
+                                                            "last_write_time":  "2026-10-28T08:14:31.1611845Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_121\\README.md",
+                                                            "size_bytes":  2880,
+                                                            "sha256":  "F1F925A1E0AE764824CAB5AA55E1A4C91CAFB65814AF8E92AE7742974BF670D3",
+                                                            "last_write_time":  "2026-10-28T08:14:31.0971223Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DanhSachQuyDoi.xlsx",
+                                                            "size_bytes":  7415,
+                                                            "sha256":  "AC63597704EBBA4D95A8DD94B6AF4D4254C4E1A874A8FC40403A14056120A393",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9223644Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DanhSachSanPham.xlsx",
+                                                            "size_bytes":  9409,
+                                                            "sha256":  "9A5B9A3CB59ED2CCFED349DFA989B293DE38E500247E2BAEDB86C29B881C8681",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9654396Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DanhSachThuoc.xlsx",
+                                                            "size_bytes":  6693,
+                                                            "sha256":  "23C41E1856B9B513F5B839DAF9A08E8AD285368902A746BE63B5ED184E587081",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9726776Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DonHang_ChiTiet_1.xlsx",
+                                                            "size_bytes":  4221329,
+                                                            "sha256":  "457096ECDC360AC26A561387B304AD2C64F58925A693E5357C08F26664EAC98E",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9016434Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DonHang_ChiTiet_2026.xlsx",
+                                                            "size_bytes":  415854,
+                                                            "sha256":  "CD4D1841C3C6D6AD8F442E37FA61C12C8C674D3CF689A5BFC9B90DC824FBD7E0",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9514322Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DonHang_Lo_1.xlsx",
+                                                            "size_bytes":  2020408,
+                                                            "sha256":  "03AB4756D30856932F3F01593BFE857CABD208B93FBFFC7899CEB4493F39EFD3",
+                                                            "last_write_time":  "2026-10-28T08:14:33.0028985Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DonHang_Lo_2.xlsx",
+                                                            "size_bytes":  122668,
+                                                            "sha256":  "5A92C7EC03F0FD7DD01DC951C91BAA014333AEAB9A05C39A5BD377CFAE916D60",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9147734Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DonNhapHang.xlsx",
+                                                            "size_bytes":  14349,
+                                                            "sha256":  "C9642049218BC446F8D0483CA02864BAA5EA9BDCA3D0CEAB9852263A5B2148A4",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9594419Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\DonNhapHang_ChiTiet.xlsx",
+                                                            "size_bytes":  125026,
+                                                            "sha256":  "A7B15EF5EB79E564E17BCA2C47BDEF47A7A018525A68CC0774E47787C30AAB3E",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9334090Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_122\\README.md",
+                                                            "size_bytes":  3669,
+                                                            "sha256":  "2EA579B13F08F31FCF21F6DCA27CA35C4671BAB764F4E435C593B3375E2ABE51",
+                                                            "last_write_time":  "2026-10-28T08:14:32.9379669Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_123\\pos.sqlite",
+                                                            "size_bytes":  18591744,
+                                                            "sha256":  "6D20469B9412637C3236AE0B673632AA9EF65578DB558DA34FC80ECC761671CC",
+                                                            "last_write_time":  "2026-10-28T08:14:32.5243140Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_123\\README.md",
+                                                            "size_bytes":  2414,
+                                                            "sha256":  "75CA6DECA11DCB39D204080A4B262CBDBFD0E229415DD1CCCAB9110160231240",
+                                                            "last_write_time":  "2026-10-28T08:14:32.3960813Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_BanTheoLo.xlsx",
+                                                            "size_bytes":  2299706,
+                                                            "sha256":  "244E26922FE1DE962365C3190A76E46C3CC5B7AF237FB584322B8A6E872B8511",
+                                                            "last_write_time":  "2026-10-28T08:14:32.5856781Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_ChiTietHoaDon.xlsx",
+                                                            "size_bytes":  5920874,
+                                                            "sha256":  "61BB039B98AF6E8F1A3074407FA8F1987D011DA691894C546F17B7DDB1F935DC",
+                                                            "last_write_time":  "2026-10-28T08:14:32.7884901Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_DonViQuyDoi.xlsx",
+                                                            "size_bytes":  6628,
+                                                            "sha256":  "BCEF6132640BE1182C01A718C078F852622B4878E40D48E9E5B093A7904FE2BB",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6176784Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_HangHoa.xlsx",
+                                                            "size_bytes":  10120,
+                                                            "sha256":  "9EE2AD5ECC01E71761D76A4B8FFF98410AD7F53364C6098EEAADFB2346E98528",
+                                                            "last_write_time":  "2026-10-28T08:14:32.7264901Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_HoaDon.xlsx",
+                                                            "size_bytes":  3642860,
+                                                            "sha256":  "2DDC870F7F35AA44C17CDC3002D163ABD8766849E8126D500BC6CB186D901E96",
+                                                            "last_write_time":  "2026-10-28T08:14:32.7194992Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_KhachHang.xlsx",
+                                                            "size_bytes":  25161,
+                                                            "sha256":  "39258B99627AC67BA51A25A78B7C9D276456957861EF9E21B154767AD8957AB9",
+                                                            "last_write_time":  "2026-10-28T08:14:32.5508836Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_LichSuGia.xlsx",
+                                                            "size_bytes":  9207,
+                                                            "sha256":  "8C29D13A6CC34818D881D2AEA65AAB845E13F145BB18F923796B8CA7585512BD",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6418372Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_LoHang.xlsx",
+                                                            "size_bytes":  124813,
+                                                            "sha256":  "7C1605AE8819E1493416688277DD061264AD4411AC845564E7193A57913DEF14",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6348349Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_PhieuThu.xlsx",
+                                                            "size_bytes":  1729121,
+                                                            "sha256":  "EB67CDA450A44A6548FF4D40C4869EB05D7E9B0E3D7B16D59C2FD61080F21C15",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6106751Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\BanHang_Thuoc.xlsx",
+                                                            "size_bytes":  6748,
+                                                            "sha256":  "3EDB70C6FEBDE7F22D0681210CD2BE3FF30802015855B6D61E90033D13FAE1BC",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6644945Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\README.md",
+                                                            "size_bytes":  2429,
+                                                            "sha256":  "A84EBFF9B52EDCC0C5E68793E8E15CDF8852D63D6B116617B082FEBC4846AA54",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6468364Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\SoTay_ChiPhi.xlsx",
+                                                            "size_bytes":  6465,
+                                                            "sha256":  "DBA3AC82D944CD47E8F99496B9F42B049070321CFBD398019AB94BEF0F90A3E0",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6548364Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\SoTay_NhapHang.xlsx",
+                                                            "size_bytes":  262334,
+                                                            "sha256":  "49A2799B5B34C14CBF542AE00DD60311D0881BC9A54E333CCBABD8D2C27567F1",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6268258Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_124\\ton_kho.csv",
+                                                            "size_bytes":  4469,
+                                                            "sha256":  "D7C53ABC1A471793DD65D33AC13BD9A7E8B8F37D41A5DF6DDBF42B6EEF28D357",
+                                                            "last_write_time":  "2026-10-28T08:14:32.6794888Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_125\\ban_hang.csv",
+                                                            "size_bytes":  8018553,
+                                                            "sha256":  "02636B47A1DBAC21678808FD6D1E7F65A7A353FFEF377C55655CF2539524BA19",
+                                                            "last_write_time":  "2026-10-28T08:14:32.8512056Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_125\\README.md",
+                                                            "size_bytes":  1257,
+                                                            "sha256":  "CF97C5B9193C16D138C1ED72B1C1933503E3A1C4FD5B289260FB721AF0D729AD",
+                                                            "last_write_time":  "2026-10-28T08:14:32.7974973Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_126\\README.md",
+                                                            "size_bytes":  1249,
+                                                            "sha256":  "F4891E2A70845C86AFCDB27C8F115B6F66F69B1DBD193D965778959E91A1A441",
+                                                            "last_write_time":  "2026-10-28T08:14:31.3327714Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_126\\SoBanHang.xlsx",
+                                                            "size_bytes":  2497068,
+                                                            "sha256":  "16FB6D1B796F12A8333F73823F08FE130649E41E7567C0C048553E7C5DBF269D",
+                                                            "last_write_time":  "2026-10-28T08:14:31.3657697Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_127\\chi_tiet_don.csv",
+                                                            "size_bytes":  5805224,
+                                                            "sha256":  "CA26B72AD489CDA8ABD819F6B47D639805D58133A139A8FEA55D01AF74E90930",
+                                                            "last_write_time":  "2026-10-28T08:14:30.8742697Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_127\\don_hang.csv",
+                                                            "size_bytes":  2221071,
+                                                            "sha256":  "127A7DF4B6A896A44C4BA363554AFD096293C21651234D5DE56236AF332C6E85",
+                                                            "last_write_time":  "2026-10-28T08:14:30.9002719Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_127\\khach_hang.csv",
+                                                            "size_bytes":  17234,
+                                                            "sha256":  "1DC13D72F069D503573117A6BE5CE12ED5897A3C9455D9ABF3DEF0A929B60103",
+                                                            "last_write_time":  "2026-10-28T08:14:30.8040227Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_127\\README.md",
+                                                            "size_bytes":  2548,
+                                                            "sha256":  "5870360D102D5A33B113A6A42432AAD9CEAC93D0C46834E380065BF4C091246B",
+                                                            "last_write_time":  "2026-10-28T08:14:30.8080205Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_127\\san_pham.csv",
+                                                            "size_bytes":  5533,
+                                                            "sha256":  "2135B02FEED31217230814DCCFE03A5BFE1A02664E63454AA8588C255FBCCE23",
+                                                            "last_write_time":  "2026-10-28T08:14:30.7880201Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_127\\thanh_toan.csv",
+                                                            "size_bytes":  1804055,
+                                                            "sha256":  "9CA965687543761DE7FEC83C1C1758C87F8FFBAE0197FD0FE02700FE68773EC6",
+                                                            "last_write_time":  "2026-10-28T08:14:30.8330460Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\BaoCaoTonKho.xlsx",
+                                                            "size_bytes":  6839,
+                                                            "sha256":  "36EA29A59AA71B117DD14B77F386EDCDB10C95B05B4E70F9F6FB2D9317EA3021",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5106950Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachChiTietNhapHang.xlsx",
+                                                            "size_bytes":  48676,
+                                                            "sha256":  "66DEAF39963473D40F92D756AF89ADFE9D33255EDF1554EBA404463F66FD447C",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5246975Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachHoaDon.xlsx",
+                                                            "size_bytes":  1576827,
+                                                            "sha256":  "5D103FCC80D822E4443A922B773FFF41919C4CD49F7AF6AA558C5C03ED90838F",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5016976Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachHoaDonChiTiet.xlsx",
+                                                            "size_bytes":  4230261,
+                                                            "sha256":  "40BE6EA2E5A8EFBC8561999916E12F5D10C882C1783A8E24C00EDDADC8B1A5B7",
+                                                            "last_write_time":  "2026-10-28T08:14:31.4776940Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachHoaDonPhongBan.xlsx",
+                                                            "size_bytes":  472422,
+                                                            "sha256":  "9D4FE223D8EF20351C3ED4F2E1E7F479BF293B2C5961EDA532109408EBF496DD",
+                                                            "last_write_time":  "2026-10-28T08:14:31.4230642Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachKhachHang.xlsx",
+                                                            "size_bytes":  16616,
+                                                            "sha256":  "219BCE436771D2D029F35FF58F0D82738B63D14B2E6D972A7B6F4855715DBE83",
+                                                            "last_write_time":  "2026-10-28T08:14:31.4310649Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachNhapHang.xlsx",
+                                                            "size_bytes":  18179,
+                                                            "sha256":  "8417752E780360338C684FC004829246BC224F7D6706C95A2ED2100EF3B4AFD5",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5396963Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\DanhSachSanPham.xlsx",
+                                                            "size_bytes":  8698,
+                                                            "sha256":  "8E017E0C00754A72879B47B486E4A54D54BF288C08067F534E6C9B53B121831F",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5326960Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_128\\README.md",
+                                                            "size_bytes":  4445,
+                                                            "sha256":  "4A3BF5E4AD896FDA5A8A3949C0FFB0CDC77C235579BEB41DC4475A3372C97066",
+                                                            "last_write_time":  "2026-10-28T08:14:31.5156967Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_129\\chi_tiet_don.csv",
+                                                            "size_bytes":  6738227,
+                                                            "sha256":  "85F9D0F8BDD902477A896C33BC1216CB018DF472806FE201E044C6D4D6FB3363",
+                                                            "last_write_time":  "2026-10-28T08:14:30.3999425Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_129\\don_hang.csv",
+                                                            "size_bytes":  2251873,
+                                                            "sha256":  "57BCC3CA7C760EF0EA5EE2DF727F4D47FA9DA205BEB7F107635095A2A78F32A7",
+                                                            "last_write_time":  "2026-10-28T08:14:30.4309854Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_129\\khach_hang.csv",
+                                                            "size_bytes":  20493,
+                                                            "sha256":  "8F7B5D2C5B9723BA1791E77A42FC17E06B94E79524A83358B8635C8A62E9B8C7",
+                                                            "last_write_time":  "2026-10-28T08:14:30.3028616Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_129\\README.md",
+                                                            "size_bytes":  2530,
+                                                            "sha256":  "7FCF56E75836F707A6041995158A4C309CAA828F704CBC46C23685E873B7A348",
+                                                            "last_write_time":  "2026-10-28T08:14:30.3089275Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_129\\san_pham.csv",
+                                                            "size_bytes":  6034,
+                                                            "sha256":  "CC362461FDE64C1E69928CC38D4F8506AA0F636C3C19BB5EE020EC92DA2FBD4D",
+                                                            "last_write_time":  "2026-10-28T08:14:30.2848531Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_129\\thanh_toan.csv",
+                                                            "size_bytes":  2052493,
+                                                            "sha256":  "F17E228B252516FA0E3FAE3E8A4ECD6838AB40321D896EE62477A14E606F2B40",
+                                                            "last_write_time":  "2026-10-28T08:14:30.3429403Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_130\\Danh s├ích h├áng h├│a.xlsx",
+                                                            "size_bytes":  8474,
+                                                            "sha256":  "046ACBF4854AD6798E614A8273EC5FA299CFC201A04F653C95AB440C5563DE19",
+                                                            "last_write_time":  "2026-10-28T08:14:32.1535388Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_130\\README.md",
+                                                            "size_bytes":  2018,
+                                                            "sha256":  "0793980B1F0ED2D6B7810ED340071D0B511B65C63610F23D7F8C3B1D0CB7CB42",
+                                                            "last_write_time":  "2026-10-28T08:14:32.2075732Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_130\\So_chi_tiet_ban_hang_1.xlsx",
+                                                            "size_bytes":  4147195,
+                                                            "sha256":  "8BBDCFB8AA0FDCCF72C37E099E0E2209BEB3388EEB7156D5AEFF80A3E6471F51",
+                                                            "last_write_time":  "2026-10-28T08:14:32.2015340Z"
+                                                        },
+                                                        {
+                                                            "split":  "train",
+                                                            "relative_path":  "data\\biz_130\\So_chi_tiet_ban_hang_2.xlsx",
+                                                            "size_bytes":  3015637,
+                                                            "sha256":  "2D9543A29FA6F74EA73F14EE688EEAD68A398F12DE1AE4F34AB7BDC73B16A536",
+                                                            "last_write_time":  "2026-10-28T08:14:32.2455810Z"
+                                                        }
+                                                    ]
+                                      },
+                            "public_test":  {
+                                                "path":  "D:\\ZALO\\public_test",
+                                                "file_count":  97,
+                                                "files":  [
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "calendar.csv",
+                                                                  "size_bytes":  44048,
+                                                                  "sha256":  "C2579905E8B4EB152A4833B05F1F72DE3E3D2C517B5D610D7664AEEB2D6A75B3",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.7845884Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "questions.jsonl",
+                                                                  "size_bytes":  163342,
+                                                                  "sha256":  "B33AE585ED5D4ACDACBD6A2873D442E3A5673A8238B6E932827F40C48C158832",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.7985849Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "rulebook.md",
+                                                                  "size_bytes":  23816,
+                                                                  "sha256":  "959EBB63B709FAD68F7E8A339CDE955C96B6E9AF2E48141DB3AD5A2429510E10",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8065868Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_001\\Danh s├ích h├áng h├│a.xlsx",
+                                                                  "size_bytes":  9439,
+                                                                  "sha256":  "92EF8720F07501AE4A71B843169D75FFAF2AF2A0ED465C64D11DF77B50A6F6A5",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.0943841Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_001\\README.md",
+                                                                  "size_bytes":  4672,
+                                                                  "sha256":  "8E197003CEF404F44A549D6840C4B136ADAEE1AAA0860156773EF6670DF9C6DB",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.1483860Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_001\\So_chi_tiet_ban_hang.xlsx",
+                                                                  "size_bytes":  4589213,
+                                                                  "sha256":  "A26E9FF3DA30989C60EB67BE95AA059676F8118678349B9340D2083F0AE53CBC",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.1443882Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T10_2025.xlsx",
+                                                                  "size_bytes":  250626,
+                                                                  "sha256":  "6AEB861D4351AD85D8E531EFF7C5175C25781D48BC0C180FC2763A6799A678E3",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1936142Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T11_2025.xlsx",
+                                                                  "size_bytes":  238641,
+                                                                  "sha256":  "0ED27E0EA99CB469A1B3BEB1C049B6295836370846149944549DFEE8ECA8169B",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1505911Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T12_2025.xlsx",
+                                                                  "size_bytes":  244942,
+                                                                  "sha256":  "67201A464D55D9EF0491C55B3148081ED44081F3A9DAF81818F8567183AB7114",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2623975Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T1_2025.xlsx",
+                                                                  "size_bytes":  231339,
+                                                                  "sha256":  "BCE16F907D4321A9A6FD6AD7E3936EABF442237CF1049B0178BE6E35EC2368C8",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1313909Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T1_2026.xlsx",
+                                                                  "size_bytes":  240741,
+                                                                  "sha256":  "9C8D1EC5C8681FE095210D1C3319A23135A636F54149BA401BF9F7197D1E7C19",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2971641Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T2_2025.xlsx",
+                                                                  "size_bytes":  217078,
+                                                                  "sha256":  "EA9AAA46DA316170CC9221C1E842E7113DCA0060BE1B4FF5E464B819B613D864",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2533982Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T2_2026.xlsx",
+                                                                  "size_bytes":  173364,
+                                                                  "sha256":  "4309299493F8F33EFC7286A1B28924B272DBA017D9E88A19F3ED09EA9DA6E556",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1695907Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T3_2025.xlsx",
+                                                                  "size_bytes":  265690,
+                                                                  "sha256":  "EC184DFAEEC8543D9896B599608BA4B2D655097DD966EF2142823411E48AF0DC",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2283957Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T3_2026.xlsx",
+                                                                  "size_bytes":  237010,
+                                                                  "sha256":  "4445B9FBF543C6D13D64085B7781BA4279D0A36775F6A682EDC66BF0548339AA",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2116039Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T4_2025.xlsx",
+                                                                  "size_bytes":  252752,
+                                                                  "sha256":  "7B5E46A3D12B4861EDA606B783F1D24AAE8EF12AA96EBE2BDBD8DBC79C732E9D",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2743966Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T4_2026.xlsx",
+                                                                  "size_bytes":  227170,
+                                                                  "sha256":  "29194D8FC8031D20BB0BCB9F9BD678E63C40987304E2A14D3E469CCCE9508061",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1425926Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T5_2025.xlsx",
+                                                                  "size_bytes":  265833,
+                                                                  "sha256":  "1247277E28266DCD5FFD1DDF70FFBD6C96A1474A1C98168824972A3BB8E2C496",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2363977Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T5_2026.xlsx",
+                                                                  "size_bytes":  185485,
+                                                                  "sha256":  "76A4E0D51E4BED93E1A725DEDBAA591C166A7C2530BD9F25EB89ED846248CBF8",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1785930Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T6_2025.xlsx",
+                                                                  "size_bytes":  245320,
+                                                                  "sha256":  "14B0DCD0CD4302D6241BB4470273E39EA457A450875F8843EA12DF23432C0955",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2015990Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T7_2025.xlsx",
+                                                                  "size_bytes":  249940,
+                                                                  "sha256":  "22AAA79827626D6094614753F9710E611EB687CAA8656CA58F77A9B696C571AA",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1625922Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T8_2025.xlsx",
+                                                                  "size_bytes":  256894,
+                                                                  "sha256":  "C2627C3462D1C5682DE54D89F4C6DA3C58FCB21C180B92B40A2364B284027E2E",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2443962Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\BanHang_T9_2025.xlsx",
+                                                                  "size_bytes":  238707,
+                                                                  "sha256":  "BA731EB852D91E9AF9A45D1DD42084333C59DF788FD38E189F2E3A12A4E6F8B6",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2840117Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\DanhSachQuyDoi.xlsx",
+                                                                  "size_bytes":  4974,
+                                                                  "sha256":  "5078C10892C20F1E34C750E42AA66EF5F3D159EB0D22C37F84A727E98CB6852A",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1845922Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_002\\README.md",
+                                                                  "size_bytes":  2005,
+                                                                  "sha256":  "F0521DE9620274ABC11ED648C317667BC806143CFE9C785AE36B5E74A1DD464E",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.2169512Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\BanHang_PhieuThu.xlsx",
+                                                                  "size_bytes":  2126655,
+                                                                  "sha256":  "2854C67C6D37B24D6C9BE4768B9716C3A1B09933812B13EBD4BF0C315CB507CB",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.9326379Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\BanHang_TongHop_2025.xlsx",
+                                                                  "size_bytes":  6821033,
+                                                                  "sha256":  "3AD16D5DF3E1CB6E615F34C26CC1D53886160FAE5279EB5C94FBE860F0CE4692",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.0146401Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\BanHang_TongHop_2026.xlsx",
+                                                                  "size_bytes":  5607377,
+                                                                  "sha256":  "DD7BFEE7E257979B1C6DE4244F44C34808E7B796FA65DC90CA64875CA012DEB2",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.0936447Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\BaoCaoCa.xlsx",
+                                                                  "size_bytes":  35261,
+                                                                  "sha256":  "EAA36568F825F8E3C77F3B5F4D37F0C4F481B4AA7B259B196A3164C748DBAA62",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.9056326Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\README.md",
+                                                                  "size_bytes":  2817,
+                                                                  "sha256":  "8D45483CEA461C3DD2D95C284CE75DD140DEE5D06C2712ED549A0A442C09DC13",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.0206395Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\SoTay_ChiPhi.xlsx",
+                                                                  "size_bytes":  6531,
+                                                                  "sha256":  "2124E39B01F296157340DBE980AA8FD212F82C5C186C6A5A29A16E4B6E0FB938",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.0306447Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\SoTay_NhapHang.xlsx",
+                                                                  "size_bytes":  65730,
+                                                                  "sha256":  "78A483C0DDF3D2A1ED9D28267E6DD89C209D6EBB07BBACB67301CB2565BB0FD3",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.9409236Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_003\\ton_kho.csv",
+                                                                  "size_bytes":  1709,
+                                                                  "sha256":  "FCE05D26D7D30B5FA58194DE740F3AD89F0853028709DCBC58CDE489D86CFE4F",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.1140655Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\BangGia.xlsx",
+                                                                  "size_bytes":  7933,
+                                                                  "sha256":  "15A42E1A9D7202AC5B9441A6BF30687C348B7BF9592167875E8FAD44E9CE9BD4",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8388505Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\DanhMuc.xlsx",
+                                                                  "size_bytes":  5416,
+                                                                  "sha256":  "2712FFFE00AE7DC25FC5E75A92E9C714144FE86979820FC3F13582F412FA22B5",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8886395Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\README.md",
+                                                                  "size_bytes":  4024,
+                                                                  "sha256":  "BF4BEEBA546322AF4F82F1BE89DE60AE5D0DA540091F436EEF51FDBAD1301881",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8576173Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\SoBanHang.xlsx",
+                                                                  "size_bytes":  1901006,
+                                                                  "sha256":  "BFEB3C26E4B205BF849D82C54B2634A8E9ACF03A567FB650A03CFF44079DF5EE",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8816324Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\SoGiaoHang.xlsx",
+                                                                  "size_bytes":  1102618,
+                                                                  "sha256":  "9EE5AF7F761E5B4EE90F15A6F27C671B2D229EDF2AC647636CE9B4F1DC54EB43",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8318495Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\SoHanNo.xlsx",
+                                                                  "size_bytes":  46339,
+                                                                  "sha256":  "262EDCA40ADB36EAADA9B0A45DDF6771BC8893164884F5EDD7015AACA6506814",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8466158Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\SoNhapHang.xlsx",
+                                                                  "size_bytes":  58458,
+                                                                  "sha256":  "3419E009511AD3DF834A0E173F5DEE1E68AFEDA926B49CCED23F165C416F8896",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8946323Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_004\\TonKho.xlsx",
+                                                                  "size_bytes":  6989,
+                                                                  "sha256":  "F6357604D8518C6361B65860A3E9DE1E7052B65EF29E6592EAEF18F6BDA63E84",
+                                                                  "last_write_time":  "2026-10-28T08:14:41.8526162Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang01_2025.xlsx",
+                                                                  "size_bytes":  224744,
+                                                                  "sha256":  "35197EF9FF46A1A630909693F5ECE7E5166DEB0DD28E59720D5EE5B5215CA6C1",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3963975Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang01_2026.xlsx",
+                                                                  "size_bytes":  226471,
+                                                                  "sha256":  "EFEB2196309565C292B04370BFA86B0B71A68CBB947EA82C525FC0983E28786B",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4811512Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang02_2025.xlsx",
+                                                                  "size_bytes":  197192,
+                                                                  "sha256":  "2B7515CE7654A01227041BE53042D3BA800479910D9CA8EB45766F9FCD3A7A7D",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4721528Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang02_2026.xlsx",
+                                                                  "size_bytes":  196944,
+                                                                  "sha256":  "D87931962CB8D637AF45073F41625EE6683182F1EB3D99533F33FCCCB65A1699",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4185757Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang03_2025.xlsx",
+                                                                  "size_bytes":  205806,
+                                                                  "sha256":  "975C8A7301C223DDBEAB3D2161C860A22DB55B45C2F2FCA1A05EC214FCF9AFA0",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5341491Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang03_2026.xlsx",
+                                                                  "size_bytes":  215787,
+                                                                  "sha256":  "5F785DA5F00C9529FB18B5D6293FB04219E70875E40B1379D839D227AED08662",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3458839Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang04_2025.xlsx",
+                                                                  "size_bytes":  202216,
+                                                                  "sha256":  "49FBA6121E54BB157A90C1394E94AC0382859828810D3D82E9891B21705602DC",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5161559Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang04_2026.xlsx",
+                                                                  "size_bytes":  212199,
+                                                                  "sha256":  "3169C37A630025B405077A7BFE67C0560EEFC43B41AD6CCA69A7B458B9891E09",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3833760Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang05_2025.xlsx",
+                                                                  "size_bytes":  219854,
+                                                                  "sha256":  "C9B326E26D956CD8A7437FDF0402DD4AEBB7C7DFE88260A1ADF085AD8D9EA9FC",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5511526Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang05_2026.xlsx",
+                                                                  "size_bytes":  79229,
+                                                                  "sha256":  "C8CB1B91F7A3AD10C87AE467A4B226CB33594041DB18D8AE8326BF92AD491CD6",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3111641Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang06_2025.xlsx",
+                                                                  "size_bytes":  207238,
+                                                                  "sha256":  "0208D967338C93072B47E3115C64AC679EF27C075731004861D948E1913C056D",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3701231Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang07_2025.xlsx",
+                                                                  "size_bytes":  219003,
+                                                                  "sha256":  "8B93DDB8CAF55DD681036F517027CCE442237031B439DAA4490E6B7C63E174EB",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4428306Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang08_2025.xlsx",
+                                                                  "size_bytes":  208047,
+                                                                  "sha256":  "749C1B99201188A4996D25ADBFE3CCED3411998B2F43249A8750427FC7D2F66C",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5421519Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang09_2025.xlsx",
+                                                                  "size_bytes":  202272,
+                                                                  "sha256":  "A8AE7E60FDE6F555FAA7E71AD1D230856855B77034632E5A214BCB61FCDC4FD7",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4891520Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang10_2025.xlsx",
+                                                                  "size_bytes":  214308,
+                                                                  "sha256":  "638345C924CEACE53F7712098225A49A2D13A54BF71B6D5A69D686E486BAD314",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4981718Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang11_2025.xlsx",
+                                                                  "size_bytes":  206747,
+                                                                  "sha256":  "457603E5DF6BF98E740B56392735737FE64985C59C3E8A42BF7437970678ECC7",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5591524Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\BanHang_Thang12_2025.xlsx",
+                                                                  "size_bytes":  217184,
+                                                                  "sha256":  "9D088BAE01E9B1535888BD471DDB65BCF87CC38AB7EFDAE1F3A8EB02D50A733C",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3578821Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\DanhSachQuyDoi.xlsx",
+                                                                  "size_bytes":  7446,
+                                                                  "sha256":  "5E042F204D006A1D025B3F16EFC77B46E3F6D841E682EFE2560D22BB9C2C0ECF",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4073884Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\DanhSachSanPham.xlsx",
+                                                                  "size_bytes":  10216,
+                                                                  "sha256":  "F32E7E6CF735BFCBE26526ECCC67FE584C2167342EDA8F1105AB480B6887CC21",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5071540Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\DanhSachThuoc.xlsx",
+                                                                  "size_bytes":  6758,
+                                                                  "sha256":  "3CB8DB5726CE917D6BDA500135AC034EAAF88BFE16E6D28231840BD03D1D124C",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5241517Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\DonHang_Lo.xlsx",
+                                                                  "size_bytes":  1573490,
+                                                                  "sha256":  "B96E109935EBE027E2BD0747C4DC09D81104E7A5109ADFF313374E10A80BE435",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.3365938Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\DonNhapHang.xlsx",
+                                                                  "size_bytes":  13210,
+                                                                  "sha256":  "40163FDA250762C962D57EECDE3731138E2EC6E2EDB2111BB4A3D145F180FB5C",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4601544Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\DonNhapHang_ChiTiet.xlsx",
+                                                                  "size_bytes":  103072,
+                                                                  "sha256":  "372EFE9C6DDA80D7E1FDF313D66101CDBCA13B2B12CC657C03AFB982703B633C",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4296011Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_005\\README.md",
+                                                                  "size_bytes":  3252,
+                                                                  "sha256":  "607867C478DB2BBC3957051EA2D71F5B3F5AE6F790907A5F576AE15ED2CB519C",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.4488290Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_006\\pos.sqlite",
+                                                                  "size_bytes":  21086208,
+                                                                  "sha256":  "6602BC3D75368904FD52FCD6785AEB4C6CE0F694AEF2ED50EEA80A13F42A6740",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.0653343Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_006\\README.md",
+                                                                  "size_bytes":  2414,
+                                                                  "sha256":  "4FDCFDB174B0F28D0473E7CA870D8BE34F8E754A99C7FC99EF441520C7729040",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.9250407Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_007\\chi_tiet_hoa_don.csv",
+                                                                  "size_bytes":  24907552,
+                                                                  "sha256":  "31D370C0C95A00FFD426AAB95560CC6EEA29DABAA2B015E60A5C4E759CB23825",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.8911598Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_007\\chi_tiet_nhap_hang.csv",
+                                                                  "size_bytes":  183325,
+                                                                  "sha256":  "1EE976E0E584521EACB07619B0C7527ACA4613EFAE071B45BEE51DD9C8AF05F9",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.7501032Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_007\\danh_muc_hang.csv",
+                                                                  "size_bytes":  4505,
+                                                                  "sha256":  "95A410AA7BFCF3CF690EEABDC7D28703F6642738CD05547541EF7C965EABF489",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.9160129Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_007\\README.md",
+                                                                  "size_bytes":  4434,
+                                                                  "sha256":  "82DE5408CB80231A7F18B904251C306DE12BAA228B49CA782AD8791D79BDEA79",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.8961631Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_008\\ChiTietHoaDon_1.xlsx",
+                                                                  "size_bytes":  13929713,
+                                                                  "sha256":  "AE35B9523C0E33ECCDCD9EC377DF197158D64C1E2CD793D6A816FFBD94B51670",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.3023839Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_008\\ChiTietHoaDon_2.xlsx",
+                                                                  "size_bytes":  7445226,
+                                                                  "sha256":  "2850407A1A399071AB060990B8989DA1D019EA5B5C4A4ABBD9565E26578936FF",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.3887418Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_008\\ChiTietNhapHang.xlsx",
+                                                                  "size_bytes":  136975,
+                                                                  "sha256":  "267D534156ACB16954C9BC8E177C0EAFDE387868188F27ED3B8D5A866E6E0EDF",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4060936Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_008\\DanhMucHang.xlsx",
+                                                                  "size_bytes":  8463,
+                                                                  "sha256":  "A1FAC2C45A800612BBA9A1FC73F2DB450AECF14EBA10A553AC1C93D6E310E4F7",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.3977362Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_008\\README.md",
+                                                                  "size_bytes":  6519,
+                                                                  "sha256":  "7294AEF0AD498FA8B543B745BBBAE05B70E981C4D6E3671936F779B93F5B8FE3",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.3069990Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_009\\danh_sach_hoa_don.csv",
+                                                                  "size_bytes":  1617568,
+                                                                  "sha256":  "F2C9C141D20ECBF0DF57BD3F23B6FB7210E69FC386C139D1F9C53F5A540E275B",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.7302644Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_009\\README.md",
+                                                                  "size_bytes":  923,
+                                                                  "sha256":  "F0422AB8578DD0AD0FEA1477DE87214DBC69F39ED0E4868ECD0A8FAE26CC31A5",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.6879833Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_010\\chi_tiet_don.csv",
+                                                                  "size_bytes":  2097332,
+                                                                  "sha256":  "408E99210062B4E264B4422B3962C32758988077858094001B40BFE66DC01B73",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.6568437Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_010\\don_hang.csv",
+                                                                  "size_bytes":  1915060,
+                                                                  "sha256":  "54BCA1728AA431707FCB01DF23E240201559AFD83644239845F34DF2681C2D3F",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.6798699Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_010\\khach_hang.csv",
+                                                                  "size_bytes":  25096,
+                                                                  "sha256":  "DE783ABC04EEF45D2FA2949ABE1907B96B31BD877F0B33B7BCFFD5FED2DBFAC8",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.6071514Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_010\\README.md",
+                                                                  "size_bytes":  3341,
+                                                                  "sha256":  "A42E1757F8E758EF53ED37C945E2E93F66DF991989F6D6454C4F67823CE542FA",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.6113822Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_010\\san_pham.csv",
+                                                                  "size_bytes":  6278,
+                                                                  "sha256":  "FAB003106097E94D27374A3184B466F37A38F73506209B3FDA6EDA52FEC6B6BF",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5941580Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_010\\thanh_toan.csv",
+                                                                  "size_bytes":  1416094,
+                                                                  "sha256":  "6465ED4F3D2B568393DE0BA139089D794B7DA0D7B455708F1218205CBD0ACC97",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.6338335Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_011\\README.md",
+                                                                  "size_bytes":  1704,
+                                                                  "sha256":  "FC4D0A959214863C4F72883DDE2000ADD9FA58B332F899B8A80E7896B9A80A09",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5691520Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_011\\SoBanHang.xlsx",
+                                                                  "size_bytes":  288769,
+                                                                  "sha256":  "D6925EC123CB66140B9B46BB2C6BB590D89AC8332ADF9B780736DDA6523B69F2",
+                                                                  "last_write_time":  "2026-10-28T08:14:42.5771530Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_012\\DanhSachTho.xlsx",
+                                                                  "size_bytes":  5061,
+                                                                  "sha256":  "EC6479E0D7EB6606D8CAA989B9F51579BADE7978E13733CED08416CF502B807D",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4262243Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_012\\README.md",
+                                                                  "size_bytes":  1198,
+                                                                  "sha256":  "7BF1F0AF647B509A88E1E9DB9B5612A35CC40F8CE32A70EC74AC008049F524B5",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4171697Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_012\\SoSuaXe.xlsx",
+                                                                  "size_bytes":  260325,
+                                                                  "sha256":  "1AC67BE456E61A76FD039F6918194B6E4FACFA46D7DC7C7202DF5FD126AE033A",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4366799Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_013\\BanHang_2025.xlsx",
+                                                                  "size_bytes":  759593,
+                                                                  "sha256":  "15A64C63ED4CAB0188C6A42819BA844EE58F363B779EA44EAA86773266533191",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.5120115Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_013\\BanHang_2026.xlsx",
+                                                                  "size_bytes":  589520,
+                                                                  "sha256":  "8236F8B065DC93EAC587552C3BCD834194120B72ACBC8AFDA05D1D50EF606879",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4930007Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_013\\QuanLy.xlsx",
+                                                                  "size_bytes":  104514,
+                                                                  "sha256":  "F58C21E99D0E6A10E05A3A9225BCA745250464C01B5719037B3D78635D63AA2A",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.5214430Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_013\\README.md",
+                                                                  "size_bytes":  4838,
+                                                                  "sha256":  "1A9C05FA623E79069B014240744C30BFB4C9210DF44C155EFB2B617049921C19",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4980097Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_014\\README.md",
+                                                                  "size_bytes":  2887,
+                                                                  "sha256":  "5953F87FC360FEC7D5363E7B75CEBB482ACE9A2A7072754308AD89EDEBB4555B",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4463706Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_014\\SoBanHang.xlsx",
+                                                                  "size_bytes":  618555,
+                                                                  "sha256":  "186C8E971EC3EA1140B6B907C3196F8728E331F3F28DA6A73EB2698B43515B6B",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4593616Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_014\\SoNo.xlsx",
+                                                                  "size_bytes":  67630,
+                                                                  "sha256":  "C2CB04FBF8AAEA7F7345943CF0BB09DCAF10B47C73B78EFD6AC58F958C416627",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4665855Z"
+                                                              },
+                                                              {
+                                                                  "split":  "public_test",
+                                                                  "relative_path":  "data\\dev_014\\ThuMayCu.xlsx",
+                                                                  "size_bytes":  23875,
+                                                                  "sha256":  "8C595175BAF345CD1FD07417E1E7EA4449362466173797514C2D7AE48F6C1E99",
+                                                                  "last_write_time":  "2026-10-28T08:14:43.4746051Z"
+                                                              }
+                                                          ]
+                                            }
+                        }
+}

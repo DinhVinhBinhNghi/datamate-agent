@@ -1,0 +1,3 @@
+# Chat09 short handoff
+
+Local mounted data allowed J five raw recomputations and POS SQL/pandas view audit. Frozen G and repo source absent, so J/K/L/M/N submissions were **not created**. `STATE.md` is the authoritative checkpoint; `patch/resume_chat09.ps1` verifies baseline/B/G hashes, snapshots source, runs audits and builds J from G as a fresh file. J then needs the official validator and diff review. K/L require full train regression and public invariants; M lacks proven coverage/false-positive measurement; N lacks train exact/Wilson and date proof. No submission made. Recommended first review J; compose only after isolated leaderboard results are reported.

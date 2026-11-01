@@ -1,0 +1,337 @@
+{
+  "biz_123": {
+    "ruleset": "train",
+    "headers": 33630,
+    "detail_raw": 64149,
+    "detail_dedup": 62941,
+    "eligible_headers": 33008,
+    "months": {
+      "2025-01": {
+        "revenue": 231295400,
+        "orders": 2036,
+        "cancel_rate": 1.25,
+        "aov": 113603,
+        "max_day": "2025-01-24",
+        "max_day_revenue": 14491400
+      },
+      "2025-02": {
+        "revenue": 197963000,
+        "orders": 1794,
+        "cancel_rate": 0.55,
+        "aov": 110347,
+        "max_day": "2025-02-26",
+        "max_day_revenue": 12405700,
+        "growth_prev_percent": -14.41
+      },
+      "2025-03": {
+        "revenue": 207089500,
+        "orders": 1970,
+        "cancel_rate": 0.95,
+        "aov": 105122,
+        "max_day": "2025-03-03",
+        "max_day_revenue": 12349600,
+        "growth_prev_percent": 4.61
+      },
+      "2025-04": {
+        "revenue": 208231500,
+        "orders": 1871,
+        "cancel_rate": 1.1,
+        "aov": 111294,
+        "max_day": "2025-04-08",
+        "max_day_revenue": 11593200,
+        "growth_prev_percent": 0.55
+      },
+      "2025-05": {
+        "revenue": 210378000,
+        "orders": 1977,
+        "cancel_rate": 0.99,
+        "aov": 106413,
+        "max_day": "2025-05-28",
+        "max_day_revenue": 12403400,
+        "growth_prev_percent": 1.03
+      },
+      "2025-06": {
+        "revenue": 222778900,
+        "orders": 1941,
+        "cancel_rate": 1.06,
+        "aov": 114775,
+        "max_day": "2025-06-30",
+        "max_day_revenue": 11860300,
+        "growth_prev_percent": 5.89
+      },
+      "2025-07": {
+        "revenue": 205146100,
+        "orders": 1842,
+        "cancel_rate": 0.96,
+        "aov": 111371,
+        "max_day": "2025-07-09",
+        "max_day_revenue": 11960800,
+        "growth_prev_percent": -7.91
+      },
+      "2025-08": {
+        "revenue": 213282700,
+        "orders": 1952,
+        "cancel_rate": 1.31,
+        "aov": 109264,
+        "max_day": "2025-08-16",
+        "max_day_revenue": 11594600,
+        "growth_prev_percent": 3.97
+      },
+      "2025-09": {
+        "revenue": 197973500,
+        "orders": 1877,
+        "cancel_rate": 1.1,
+        "aov": 105473,
+        "max_day": "2025-09-29",
+        "max_day_revenue": 9517900,
+        "growth_prev_percent": -7.18
+      },
+      "2025-10": {
+        "revenue": 202375900,
+        "orders": 1850,
+        "cancel_rate": 1.06,
+        "aov": 109392,
+        "max_day": "2025-10-28",
+        "max_day_revenue": 10372200,
+        "growth_prev_percent": 2.22
+      },
+      "2025-11": {
+        "revenue": 202163300,
+        "orders": 1833,
+        "cancel_rate": 1.07,
+        "aov": 110291,
+        "max_day": "2025-11-26",
+        "max_day_revenue": 11582500,
+        "growth_prev_percent": -0.11
+      },
+      "2025-12": {
+        "revenue": 206232600,
+        "orders": 1859,
+        "cancel_rate": 1.11,
+        "aov": 110937,
+        "max_day": "2025-12-15",
+        "max_day_revenue": 11002300,
+        "growth_prev_percent": 2.01
+      },
+      "2026-01": {
+        "revenue": 206997300,
+        "orders": 1757,
+        "cancel_rate": 0.95,
+        "aov": 117813,
+        "max_day": "2026-01-30",
+        "max_day_revenue": 11016300,
+        "growth_prev_percent": 0.37
+      },
+      "2026-02": {
+        "revenue": 186484900,
+        "orders": 1729,
+        "cancel_rate": 1.08,
+        "aov": 107857,
+        "max_day": "2026-02-12",
+        "max_day_revenue": 9894400,
+        "growth_prev_percent": -9.91
+      },
+      "2026-03": {
+        "revenue": 214253000,
+        "orders": 1847,
+        "cancel_rate": 1.01,
+        "aov": 116001,
+        "max_day": "2026-03-15",
+        "max_day_revenue": 9526600,
+        "growth_prev_percent": 14.89
+      },
+      "2026-04": {
+        "revenue": 181141700,
+        "orders": 1670,
+        "cancel_rate": 1.11,
+        "aov": 108468,
+        "max_day": "2026-04-13",
+        "max_day_revenue": 10988000,
+        "growth_prev_percent": -15.45
+      },
+      "2026-05": {
+        "revenue": 189217400,
+        "orders": 1700,
+        "cancel_rate": 1.1,
+        "aov": 111304,
+        "max_day": "2026-05-18",
+        "max_day_revenue": 13148500,
+        "growth_prev_percent": 4.46
+      },
+      "2026-06": {
+        "revenue": 165966800,
+        "orders": 1503,
+        "cancel_rate": 0.85,
+        "aov": 110424,
+        "max_day": "2026-06-03",
+        "max_day_revenue": 9261100,
+        "growth_prev_percent": -12.29
+      }
+    },
+    "sql_pandas_equal": true,
+    "date_source": "ThoiGianLap ISO; NgayLap text cross-check pending"
+  },
+  "dev_006": {
+    "ruleset": "public_test",
+    "headers": 37833,
+    "detail_raw": 72411,
+    "detail_dedup": 71061,
+    "eligible_headers": 37086,
+    "months": {
+      "2025-04": {
+        "revenue": 233818700,
+        "orders": 2159,
+        "cancel_rate": 1.0,
+        "aov": 108300,
+        "max_day": "2025-04-21",
+        "max_day_revenue": 11717800
+      },
+      "2025-05": {
+        "revenue": 248568700,
+        "orders": 2168,
+        "cancel_rate": 0.99,
+        "aov": 114653,
+        "max_day": "2025-05-30",
+        "max_day_revenue": 11564100,
+        "growth_prev_percent": 6.31
+      },
+      "2025-06": {
+        "revenue": 237185200,
+        "orders": 2088,
+        "cancel_rate": 0.94,
+        "aov": 113594,
+        "max_day": "2025-06-01",
+        "max_day_revenue": 11811400,
+        "growth_prev_percent": -4.58
+      },
+      "2025-07": {
+        "revenue": 257159000,
+        "orders": 2328,
+        "cancel_rate": 0.84,
+        "aov": 110463,
+        "max_day": "2025-07-17",
+        "max_day_revenue": 14185800,
+        "growth_prev_percent": 8.42
+      },
+      "2025-08": {
+        "revenue": 251324900,
+        "orders": 2290,
+        "cancel_rate": 0.9,
+        "aov": 109749,
+        "max_day": "2025-08-23",
+        "max_day_revenue": 12925400,
+        "growth_prev_percent": -2.27
+      },
+      "2025-09": {
+        "revenue": 254476300,
+        "orders": 2160,
+        "cancel_rate": 1.04,
+        "aov": 117813,
+        "max_day": "2025-09-03",
+        "max_day_revenue": 12719700,
+        "growth_prev_percent": 1.25
+      },
+      "2025-10": {
+        "revenue": 270167800,
+        "orders": 2298,
+        "cancel_rate": 0.98,
+        "aov": 117566,
+        "max_day": "2025-10-28",
+        "max_day_revenue": 15381500,
+        "growth_prev_percent": 6.17
+      },
+      "2025-11": {
+        "revenue": 275770400,
+        "orders": 2251,
+        "cancel_rate": 1.09,
+        "aov": 122510,
+        "max_day": "2025-11-30",
+        "max_day_revenue": 14690800,
+        "growth_prev_percent": 2.07
+      },
+      "2025-12": {
+        "revenue": 252947000,
+        "orders": 2279,
+        "cancel_rate": 1.54,
+        "aov": 110990,
+        "max_day": "2025-12-15",
+        "max_day_revenue": 11657100,
+        "growth_prev_percent": -8.28
+      },
+      "2026-01": {
+        "revenue": 242091500,
+        "orders": 2289,
+        "cancel_rate": 1.45,
+        "aov": 105763,
+        "max_day": "2026-01-28",
+        "max_day_revenue": 14212100,
+        "growth_prev_percent": -4.29
+      },
+      "2026-02": {
+        "revenue": 234440500,
+        "orders": 2230,
+        "cancel_rate": 0.62,
+        "aov": 105130,
+        "max_day": "2026-02-02",
+        "max_day_revenue": 13262100,
+        "growth_prev_percent": -3.16
+      },
+      "2026-03": {
+        "revenue": 258096500,
+        "orders": 2340,
+        "cancel_rate": 0.8,
+        "aov": 110298,
+        "max_day": "2026-03-13",
+        "max_day_revenue": 12444900,
+        "growth_prev_percent": 10.09
+      },
+      "2026-04": {
+        "revenue": 264420300,
+        "orders": 2387,
+        "cancel_rate": 1.19,
+        "aov": 110775,
+        "max_day": "2026-04-29",
+        "max_day_revenue": 14423900,
+        "growth_prev_percent": 2.45
+      },
+      "2026-05": {
+        "revenue": 278868200,
+        "orders": 2406,
+        "cancel_rate": 0.98,
+        "aov": 115905,
+        "max_day": "2026-05-30",
+        "max_day_revenue": 16173600,
+        "growth_prev_percent": 5.46
+      },
+      "2026-06": {
+        "revenue": 264574100,
+        "orders": 2365,
+        "cancel_rate": 1.0,
+        "aov": 111871,
+        "max_day": "2026-06-28",
+        "max_day_revenue": 16016100,
+        "growth_prev_percent": -5.13
+      },
+      "2026-07": {
+        "revenue": 279109500,
+        "orders": 2398,
+        "cancel_rate": 1.26,
+        "aov": 116393,
+        "max_day": "2026-07-28",
+        "max_day_revenue": 11492600,
+        "growth_prev_percent": 5.49
+      },
+      "2026-08": {
+        "revenue": 71510300,
+        "orders": 650,
+        "cancel_rate": 1.21,
+        "aov": 110016,
+        "max_day": "2026-08-05",
+        "max_day_revenue": 9946700,
+        "growth_prev_percent": -74.38
+      }
+    },
+    "sql_pandas_equal": true,
+    "date_source": "ThoiGianLap ISO; NgayLap text cross-check pending"
+  }
+}

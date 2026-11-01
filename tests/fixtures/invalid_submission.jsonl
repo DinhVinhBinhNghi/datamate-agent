@@ -1,0 +1,5 @@
+﻿{"id":"q1","type":"number","answer":"1.000đ"}
+{"id":"q2","type":"percent","answer":"12.5"}
+{"id":"q3","type":"date","answer":"30/01/2026"}
+{"id":"q4","type":"list","answer":"not-a-list"}
+{"id":"q4","type":"string","answer":"duplicate-id"}

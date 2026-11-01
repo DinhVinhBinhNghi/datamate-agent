@@ -1,0 +1,6 @@
+﻿{"id":"q1","type":"number","answer":12}
+{"id":"q2","type":"percent","answer":"12.5%"}
+{"id":"q3","type":"date","answer":"2026-01-30"}
+{"id":"q4","type":"list","answer":["a","b"]}
+{"id":"q5","type":"table","answer":[["name","value"],["x",1]]}
+{"id":"q6","abstain":true}
