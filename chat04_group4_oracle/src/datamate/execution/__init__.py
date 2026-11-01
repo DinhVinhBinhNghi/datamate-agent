@@ -1,1 +1,0 @@
-"""Deterministic oracle plan execution."""

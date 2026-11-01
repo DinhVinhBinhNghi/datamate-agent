@@ -1,7 +1,0 @@
-{"id": "q_008fdebb6ec9", "decision": "answer", "family": "product_quantity", "capability": "products", "function_evidence": {"reason": "product not uniquely evidenced"}}
-{"id": "q_0ef28ee17f12", "decision": "answer", "family": "product_quantity", "capability": "products", "function_evidence": {"metric": "product_quantity", "product": "Nước  ép cam (M)"}}
-{"id": "q_54bbf080f0cd", "decision": "answer", "family": "product_ranking", "capability": "products", "function_evidence": {"metric": "product_ranking", "top_k": 3}}
-{"id": "q_a77ff9dcc3e7", "decision": "answer", "family": "product_ranking", "capability": "products", "function_evidence": {"metric": "product_ranking", "top_k": 3}}
-{"id": "q_ae10c252dc7a", "decision": "answer", "family": "product_quantity", "capability": "products", "function_evidence": {"reason": "product not uniquely evidenced"}}
-{"id": "q_b2bbe9c1e9fc", "decision": "answer", "family": "product_quantity", "capability": "products", "function_evidence": {"metric": "product_quantity", "product": "Ca phe sua (M)"}}
-{"id": "q_dec759a2f085", "decision": "answer", "family": "product_quantity", "capability": "products", "function_evidence": {"metric": "product_quantity", "product": "LATTE (M)"}}

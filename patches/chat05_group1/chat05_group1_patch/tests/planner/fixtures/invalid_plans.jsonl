@@ -1,4 +1,0 @@
-{"case": "arbitrary_sql", "plan": {"plan_id": "q_07f86ff2d62b", "operation": "revenue", "business_id": "biz_129", "ruleset": "train", "period": "tháng 3/2026", "as_of_date": "2026-08-14", "sql": "SELECT * FROM orders"}}
-{"case": "wrong_business", "plan": {"plan_id": "q_07f86ff2d62b", "operation": "revenue", "business_id": "biz_128", "ruleset": "train", "period": "tháng 3/2026", "as_of_date": "2026-08-14"}}
-{"case": "unknown_operation", "plan": {"plan_id": "q_07f86ff2d62b", "operation": "run_python", "business_id": "biz_129", "ruleset": "train", "period": "tháng 3/2026", "as_of_date": "2026-08-14"}}
-{"case": "invalid_period", "plan": {"plan_id": "q_07f86ff2d62b", "operation": "revenue", "business_id": "biz_129", "ruleset": "train", "period": "tháng 13/2026", "as_of_date": "2026-08-14"}}

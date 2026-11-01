@@ -1,1 +1,0 @@
-"""Metric-specific business predicates."""

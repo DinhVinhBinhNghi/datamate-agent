@@ -1,1 +1,0 @@
-DataMate Chat 5 / Group 2. No model downloaded or installed. Adds a plan-only heuristic benchmark and dormant versioned prompt. Run install.ps1 from PowerShell; generated report is written on Windows under artifacts\planner.

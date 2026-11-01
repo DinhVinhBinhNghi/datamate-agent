@@ -1,9 +1,0 @@
-{
-  "archetype": "monthly_excel_sales_lines",
-  "views": {
-    "sales": {"required_roles": ["order_id", "order_date", "status", "product_name", "line_amount"]},
-    "products": {"required_roles": ["order_id", "order_date", "status", "product_name", "line_amount", "quantity", "unit"]},
-    "customers": {"required_roles": ["order_id", "order_date", "status", "customer_name", "line_amount"]}
-  },
-  "note": "Minimum interfaces only. Raw files remain immutable; enablement is per business config and exact-validation gate."
-}

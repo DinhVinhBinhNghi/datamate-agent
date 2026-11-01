@@ -49,3 +49,13 @@ artifacts/*
 # Keys and certificates
 *.pem
 *.key
+# Local data and intermediate delivery folders
+/data/source/
+/downloads/
+/patches/
+/_chat08_patch/
+/patch_chat03_group*/
+/chat04_family_*/
+/chat04_group2_patch/
+/chat04_group4_oracle/
+/chat04_revenue_test_pathfix/
